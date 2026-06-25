@@ -378,6 +378,8 @@ function initLoader() {
 /* ==========================================================================
    HOME PAGE LOGIC
    ========================================================================== */
+let typingTimeout;
+
 function initHomePage() {
   const lang = localStorage.getItem("app_lang") || "en";
   renderFeaturedProducts(lang);
@@ -481,6 +483,10 @@ function initTypingEffect() {
   const element = document.getElementById("typing-subtitle");
   if (!element) return;
 
+  if (typingTimeout) {
+    clearTimeout(typingTimeout);
+  }
+
   const lang = localStorage.getItem("app_lang") || "en";
   const texts = {
     en: "Trusted Ayurvedic Remedies | Doctor Approved | 100% Purity",
@@ -496,7 +502,7 @@ function initTypingEffect() {
     if (index < text.length) {
       element.innerHTML += text.charAt(index);
       index++;
-      setTimeout(type, 50);
+      typingTimeout = setTimeout(type, 50);
     }
   }
 
