@@ -483,8 +483,9 @@ function initTypingEffect() {
   const element = document.getElementById("typing-subtitle");
   if (!element) return;
 
-  if (typingTimeout) {
-    clearTimeout(typingTimeout);
+  // Clear any existing typing interval globally to prevent mixing
+  if (window.typingInterval) {
+    clearInterval(window.typingInterval);
   }
 
   const lang = localStorage.getItem("app_lang") || "en";
@@ -498,15 +499,14 @@ function initTypingEffect() {
   let index = 0;
   element.innerHTML = "";
 
-  function type() {
+  window.typingInterval = setInterval(() => {
     if (index < text.length) {
       element.innerHTML += text.charAt(index);
       index++;
-      typingTimeout = setTimeout(type, 50);
+    } else {
+      clearInterval(window.typingInterval);
     }
-  }
-
-  type();
+  }, 50);
 }
 
 /* ==========================================================================
