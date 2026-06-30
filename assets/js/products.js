@@ -6,6 +6,11 @@ const PRODUCTS = [
     isPopular: true,
     isNew: false,
     image: "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=500&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=500&q=80",
+    ],
     translations: {
       en: {
         name: "Kesh Sakhi Herbal Shampoo",
@@ -61,6 +66,11 @@ const PRODUCTS = [
     isPopular: true,
     isNew: false,
     image: "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=500&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1607006342445-565a8e2f8087?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1590439471364-192aa70c0c53?auto=format&fit=crop&w=500&q=80"
+    ],
     translations: {
       en: {
         name: "Neem & Tulsi Purifying Soap",
@@ -116,6 +126,11 @@ const PRODUCTS = [
     isPopular: false,
     isNew: true,
     image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=500&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?auto=format&fit=crop&w=500&q=80"
+    ],
     translations: {
       en: {
         name: "Aloe Vera & Honey Glowing Face Wash",
@@ -171,6 +186,11 @@ const PRODUCTS = [
     isPopular: true,
     isNew: false,
     image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=500&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1617897903246-719242758050?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=500&q=80"
+    ],
     translations: {
       en: {
         name: "Bhringraj & Brahmi Active Hair Oil",
@@ -226,6 +246,11 @@ const PRODUCTS = [
     isPopular: false,
     isNew: false,
     image: "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=500&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?auto=format&fit=crop&w=500&q=80"
+    ],
     translations: {
       en: {
         name: "Twachamrit Herbal Moisturizing Cream",
@@ -281,6 +306,11 @@ const PRODUCTS = [
     isPopular: true,
     isNew: true,
     image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=500&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&w=500&q=80"
+    ],
     translations: {
       en: {
         name: "Ashwagandha & Giloy Immunity Booster",
@@ -336,6 +366,11 @@ const PRODUCTS = [
     isPopular: false,
     isNew: false,
     image: "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?auto=format&fit=crop&w=500&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&w=500&q=80"
+    ],
     translations: {
       en: {
         name: "Triphala Digestive Powder (Churna)",
@@ -391,6 +426,11 @@ const PRODUCTS = [
     isPopular: true,
     isNew: true,
     image: "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?auto=format&fit=crop&w=500&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?auto=format&fit=crop&w=500&q=80"
+    ],
     translations: {
       en: {
         name: "Kesar & Almond Skin Brightening Cream",

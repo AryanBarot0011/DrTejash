@@ -711,6 +711,31 @@ function renderProductDetails(prodId, lang) {
     });
   }
 
+  // Get product images (support either array 'images' or single 'image' string)
+  const productImages = product.images && Array.isArray(product.images) && product.images.length > 0
+    ? product.images
+    : [product.image].filter(Boolean);
+
+  if (productImages.length === 0) {
+    productImages.push("https://placehold.co/400x300/e2e8f0/009688?text=Product+Image");
+  }
+
+  const firstImage = productImages[0];
+
+  // Generate Thumbnails HTML
+  let thumbsHtml = "";
+  if (productImages.length > 1) {
+    thumbsHtml = `
+      <div class="gallery-thumbs d-flex gap-2 justify-content-center">
+        ${productImages.map((imgUrl, idx) => `
+          <div class="gallery-thumb-item ${idx === 0 ? 'active' : ''}" onclick="changeDetailThumb(this, '${imgUrl}')">
+            <img src="${imgUrl}" class="img-fluid" style="max-height: 100%; object-fit: contain;" alt="Thumb ${idx + 1}">
+          </div>
+        `).join('')}
+      </div>
+    `;
+  }
+
   // Construct UI
   // Construct UI
   container.innerHTML = `
@@ -719,20 +744,9 @@ function renderProductDetails(prodId, lang) {
       <div class="col-lg-6" data-aos="fade-right">
         <div class="detail-gallery bg-white p-3 p-sm-4 rounded-4 shadow-sm border border-light height-100 d-flex flex-column align-items-center justify-content-center">
           <div class="gallery-main mb-4 d-flex align-items-center justify-content-center" style="height: 380px; width: 100%;">
-            <img src="${product.image}" id="mainDetailImage" class="img-fluid rounded-3" style="max-height: 100%; object-fit: contain;" alt="${t.name}">
+            <img src="${firstImage}" id="mainDetailImage" class="img-fluid rounded-3" style="max-height: 100%; object-fit: contain;" alt="${t.name}">
           </div>
-          <!-- Static thumbnails for premium mockup feel -->
-          <div class="gallery-thumbs d-flex gap-2 justify-content-center">
-            <div class="gallery-thumb-item active" onclick="changeDetailThumb(this, '${product.image}')">
-              <img src="${product.image}" class="img-fluid" style="max-height: 100%; object-fit: contain;" alt="Thumb 1">
-            </div>
-            <div class="gallery-thumb-item" onclick="changeDetailThumb(this, 'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=500&q=80')">
-              <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=500&q=80" class="img-fluid" style="max-height: 100%; object-fit: contain;" alt="Thumb 2">
-            </div>
-            <div class="gallery-thumb-item" onclick="changeDetailThumb(this, 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=500&q=80')">
-              <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=500&q=80" class="img-fluid" style="max-height: 100%; object-fit: contain;" alt="Thumb 3">
-            </div>
-          </div>
+          ${thumbsHtml}
         </div>
       </div>
       
