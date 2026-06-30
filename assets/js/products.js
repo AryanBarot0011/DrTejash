@@ -480,3 +480,64 @@ const PRODUCTS = [
     }
   }
 ];
+
+const BEFORE_AFTER = [
+  {
+    id: "result-1",
+    beforeImage: "https://placehold.co/400x500/e2e8f0/64748b?text=Thinning+Hair",
+    afterImage: "https://placehold.co/400x500/009688/ffffff?text=Thicker+Hair",
+    translations: {
+      en: {
+        title: "Hair Volume Improvement (Bhringraj Oil)"
+      },
+      hi: {
+        title: "बालों की मात्रा में सुधार (भृंगराज तेल)"
+      },
+      gu: {
+        title: "વાળના જથ્થામાં સુધારો (ભૃંગરાજ તેલ)"
+      }
+    }
+  },
+  {
+    id: "result-2",
+    beforeImage: "https://placehold.co/400x500/e2e8f0/64748b?text=Acne+Breakout",
+    afterImage: "https://placehold.co/400x500/4CAF50/ffffff?text=Clear+Skin",
+    translations: {
+      en: {
+        title: "Acne Removal (Neem Soap)"
+      },
+      hi: {
+        title: "मुँहासे हटाने (नीम साबुन)"
+      },
+      gu: {
+        title: "ખીલ દૂર કરવા (લીમડાનો સાબુ)"
+      }
+    }
+  },
+];
+
+
+const TESTIMONIALS = [
+  {
+    id: "review-1",
+    clientName: "Ramesh Patel",
+    productName: "Kesh Sakhi Herbal Shampoo",
+    videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
+    thumbnail: "https://placehold.co/600x400/009688/ffffff?text=Hair+Care+Review+-+Ramesh"
+  },
+  {
+    id: "review-2",
+    clientName: "Saraswati Devi",
+    productName: "Triphala Digestive Powder",
+    videoUrl: "https://www.w3schools.com/html/movie.mp4",
+    thumbnail: "https://placehold.co/600x400/4CAF50/ffffff?text=Digestion+Review+-+Saraswati"
+  },
+  {
+    id: "review-3",
+    clientName: "Neha Shah",
+    productName: "Glowing Skin Cream",
+    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-skin-care-routine-of-a-young-woman-41855-large.mp4",
+    thumbnail: "https://placehold.co/600x400/0d6efd/ffffff?text=Skin+Care+Review+-+Neha"
+  },
+];
+

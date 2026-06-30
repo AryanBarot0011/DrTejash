@@ -905,14 +905,136 @@ function renderRelatedProducts(currProdId, category, lang) {
    TESTIMONIALS PAGE LOGIC
    ========================================================================== */
 function initTestimonialsPage() {
-  // Logic for opening modal from video-play-btn placeholders
-  const playButtons = document.querySelectorAll(".video-play-btn");
-  playButtons.forEach(btn => {
-    btn.addEventListener("click", () => {
-      alert("Testimonial Video Playback Simulation: In a production site, this would trigger an embedded YouTube/Vimeo iframe or local MP4 HTML5 video player.");
-    });
+  const lang = localStorage.getItem("app_lang") || "en";
+  renderVideoTestimonials();
+  renderBeforeAfter(lang);
+
+  document.addEventListener("languageChanged", (e) => {
+    renderBeforeAfter(e.detail.lang);
   });
 }
+
+function renderVideoTestimonials() {
+  const container = document.getElementById("video-testimonials-row");
+  if (!container) return;
+
+  if (typeof TESTIMONIALS === "undefined" || !Array.isArray(TESTIMONIALS)) {
+    container.innerHTML = `<p class="text-center text-muted">No video testimonials available.</p>`;
+    return;
+  }
+
+  let html = "";
+  TESTIMONIALS.forEach((test, idx) => {
+    const delay = (idx + 1) * 100;
+    html += `
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="${delay}">
+        <div class="video-card cursor-pointer" onclick="playTestimonialVideo('${test.id}')">
+          <img src="${test.thumbnail}" class="video-thumb" alt="${test.clientName}">
+          <button class="video-play-btn" aria-label="Play video"><i class="bi bi-play-fill"></i></button>
+          <div class="position-absolute bottom-0 start-0 p-3 text-white fw-bold" style="text-shadow: 1px 1px 5px rgba(0,0,0,0.5);">
+            ${test.clientName} (${test.productName})
+          </div>
+        </div>
+      </div>
+    `;
+  });
+
+  container.innerHTML = html;
+}
+
+function renderBeforeAfter(lang) {
+  const container = document.getElementById("before-after-row");
+  if (!container) return;
+
+  if (typeof BEFORE_AFTER === "undefined" || !Array.isArray(BEFORE_AFTER)) {
+    container.innerHTML = `<p class="text-center text-muted">No before & after comparisons available.</p>`;
+    return;
+  }
+
+  let html = "";
+  BEFORE_AFTER.forEach((result, idx) => {
+    const t = result.translations[lang] || result.translations["en"];
+    const delay = (idx + 1) * 100;
+    const aosDirection = idx % 2 === 0 ? "fade-right" : "fade-left";
+    
+    html += `
+      <div class="col-lg-5 col-md-6" data-aos="${aosDirection}" data-aos-delay="${delay}">
+        <h4 class="fw-bold mb-3 text-center">${t.title}</h4>
+        <div class="ba-container">
+          <div class="ba-side">
+            <img src="${result.beforeImage}" alt="Before">
+            <span class="ba-badge" data-i18n="before">Before</span>
+          </div>
+          <div class="ba-side">
+            <img src="${result.afterImage}" alt="After">
+            <span class="ba-badge" data-i18n="after">After</span>
+          </div>
+        </div>
+      </div>
+    `;
+  });
+
+  container.innerHTML = html;
+  translateUI(lang);
+}
+
+window.playTestimonialVideo = function(testId) {
+  const test = TESTIMONIALS.find(t => t.id === testId);
+  if (!test) return;
+
+  // Create modal element dynamically
+  let modalEl = document.getElementById("videoTestimonialModal");
+  if (!modalEl) {
+    modalEl = document.createElement("div");
+    modalEl.id = "videoTestimonialModal";
+    modalEl.className = "modal fade";
+    modalEl.tabIndex = "-1";
+    modalEl.setAttribute("aria-hidden", "true");
+    document.body.appendChild(modalEl);
+  }
+
+  // Determine media element (Youtube iframe or HTML5 Video player)
+  let mediaHtml = "";
+  const isYoutube = test.videoUrl.includes("youtube.com") || test.videoUrl.includes("youtu.be");
+  if (isYoutube) {
+    let embedUrl = test.videoUrl;
+    if (test.videoUrl.includes("watch?v=")) {
+      embedUrl = test.videoUrl.replace("watch?v=", "embed/");
+    } else if (test.videoUrl.includes("youtu.be/")) {
+      embedUrl = test.videoUrl.replace("youtu.be/", "youtube.com/embed/");
+    }
+    mediaHtml = `<iframe src="${embedUrl}?autoplay=1" class="w-100" style="height: 400px;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+  } else {
+    mediaHtml = `
+      <video class="w-100 rounded-3 shadow" controls autoplay style="max-height: 450px;">
+        <source src="${test.videoUrl}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    `;
+  }
+
+  modalEl.innerHTML = `
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content border-0 bg-dark text-white rounded-4 shadow-lg overflow-hidden">
+        <div class="modal-header border-bottom border-secondary bg-dark p-3 d-flex justify-content-between align-items-center">
+          <h5 class="modal-title fw-bold font-heading text-primary">${test.clientName} - ${test.productName}</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-0 bg-black text-center">
+          ${mediaHtml}
+        </div>
+      </div>
+    </div>
+  `;
+
+  const bsModal = new bootstrap.Modal(modalEl);
+  bsModal.show();
+
+  // Pause/stop video when modal is closed by resetting modal content
+  modalEl.addEventListener("hidden.bs.modal", () => {
+    modalEl.innerHTML = "";
+  });
+};
 
 /* ==========================================================================
    CONTACT PAGE LOGIC
