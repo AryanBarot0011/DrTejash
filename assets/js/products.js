@@ -2,7 +2,6 @@ const PRODUCTS = [
   {
     id: "kesh-sakhi-shampoo",
     price: 180,
-    rating: 4.8,
     category: "shampoo",
     isPopular: true,
     isNew: false,
@@ -58,7 +57,6 @@ const PRODUCTS = [
   {
     id: "neem-tulsi-soap",
     price: 90,
-    rating: 4.7,
     category: "soap",
     isPopular: true,
     isNew: false,
@@ -114,7 +112,6 @@ const PRODUCTS = [
   {
     id: "aloe-honey-facewash",
     price: 150,
-    rating: 4.6,
     category: "facewash",
     isPopular: false,
     isNew: true,
@@ -170,7 +167,6 @@ const PRODUCTS = [
   {
     id: "bhringraj-active-oil",
     price: 240,
-    rating: 4.9,
     category: "hairoil",
     isPopular: true,
     isNew: false,
@@ -226,7 +222,6 @@ const PRODUCTS = [
   {
     id: "twachamrit-cream",
     price: 210,
-    rating: 4.5,
     category: "cream",
     isPopular: false,
     isNew: false,
@@ -282,7 +277,6 @@ const PRODUCTS = [
   {
     id: "ashwagandha-giloy-capsules",
     price: 320,
-    rating: 4.8,
     category: "herbal",
     isPopular: true,
     isNew: true,
@@ -338,7 +332,6 @@ const PRODUCTS = [
   {
     id: "triphala-digestive-powder",
     price: 120,
-    rating: 4.7,
     category: "herbal",
     isPopular: false,
     isNew: false,
@@ -394,7 +387,6 @@ const PRODUCTS = [
   {
     id: "kesar-almond-cream",
     price: 280,
-    rating: 4.8,
     category: "cream",
     isPopular: true,
     isNew: true,

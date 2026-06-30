@@ -419,10 +419,6 @@ function renderFeaturedProducts(lang) {
             <p class="product-desc">${t.shortDesc}</p>
             <div class="product-price-row">
               <div class="product-price">₹${prod.price}</div>
-              <div class="product-rating">
-                <i class="bi bi-star-fill text-warning"></i>
-                <span class="ms-1 fw-bold text-dark-50">${prod.rating}</span>
-              </div>
             </div>
             <div class="product-action-row">
               <a href="product-detail.html?id=${prod.id}" class="btn btn-details btn-sm d-flex align-items-center justify-content-center" data-i18n="btn_view_details">Details</a>
@@ -588,7 +584,7 @@ function renderCatalog(lang) {
   } else if (sortBy === "price-high-low") {
     filtered.sort((a, b) => b.price - a.price);
   } else if (sortBy === "popular") {
-    filtered.sort((a, b) => (b.isPopular ? 1 : 0) - (a.isPopular ? 1 : 0) || b.rating - a.rating);
+    filtered.sort((a, b) => (b.isPopular ? 1 : 0) - (a.isPopular ? 1 : 0));
   } else if (sortBy === "new") {
     filtered.sort((a, b) => (b.isNew ? 1 : 0) - (a.isNew ? 1 : 0));
   }
@@ -634,10 +630,6 @@ function renderCatalog(lang) {
             <p class="product-desc">${t.shortDesc}</p>
             <div class="product-price-row">
               <div class="product-price">₹${prod.price}</div>
-              <div class="product-rating">
-                <i class="bi bi-star-fill text-warning"></i>
-                <span class="ms-1 fw-bold text-dark-50">${prod.rating}</span>
-              </div>
             </div>
             <div class="product-action-row">
               <a href="product-detail.html?id=${prod.id}" class="btn btn-details btn-sm d-flex align-items-center justify-content-center" data-i18n="btn_view_details">Details</a>
@@ -757,10 +749,6 @@ function renderProductDetails(prodId, lang) {
             <div class="product-price fs-2 fw-bold text-primary">₹${product.price}</div>
             <div class="badge bg-success px-3 py-2 rounded-pill fw-semibold text-white d-inline-flex align-items-center gap-1" data-i18n="in_stock">
               <i class="bi bi-shield-fill-check"></i> In Stock
-            </div>
-            <div class="product-rating fs-6 bg-warning-subtle text-warning border border-warning-subtle px-3 py-1 rounded-pill d-inline-flex align-items-center gap-1">
-              <i class="bi bi-star-fill text-warning"></i>
-              <span class="fw-bold text-dark">${product.rating}</span>
             </div>
           </div>
           
@@ -888,9 +876,6 @@ function renderRelatedProducts(currProdId, category, lang) {
             <h4 class="product-title" style="font-size: 1rem;">${t.name}</h4>
             <div class="product-price-row">
               <div class="product-price" style="font-size: 1.1rem;">₹${prod.price}</div>
-              <div class="product-rating" style="font-size: 0.8rem;">
-                <i class="bi bi-star-fill"></i> ${prod.rating}
-              </div>
             </div>
             <a href="product-detail.html?id=${prod.id}" class="btn btn-details btn-sm text-center w-100" data-i18n="btn_view_details">Details</a>
           </div>
