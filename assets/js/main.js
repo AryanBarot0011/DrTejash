@@ -85,7 +85,7 @@ function initCommonLayouts() {
       <div class="page-loader" id="pageLoader">
         <div class="text-center">
           <div class="loader-spinner mb-3"></div>
-          <h5 class="gradient-text font-heading fw-bold" style="letter-spacing: 1px;">${clinicName}</h5>
+          <h5 class="gradient-text font-heading fw-bold" style="letter-spacing: 1px;">SWAYAMBHU <br class="d-md-none"> AYURVEDAM™</h5>
         </div>
       </div>
     `;
@@ -101,7 +101,7 @@ function initCommonLayouts() {
             <a href="tel:${phone}" class="d-flex align-items-center mb-1 mb-sm-0">
               <i class="bi bi-telephone-fill me-2 text-primary"></i> ${phone}
             </a>
-            <a href="https://wa.me/${whatsapp}" target="_blank" class="d-flex align-items-center mb-1 mb-sm-0">
+            <a href="https://api.whatsapp.com/send/?phone=${whatsapp}&type=phone_number&app_absent=0" target="_blank" class="d-flex align-items-center mb-1 mb-sm-0">
               <i class="bi bi-whatsapp me-2 text-success"></i> WhatsApp
             </a>
             <a href="mailto:${email}" class="d-flex align-items-center">
@@ -127,8 +127,8 @@ function initCommonLayouts() {
         <div class="navbar-bg-blur"></div>
         <div class="container">
           <a class="navbar-brand d-flex align-items-center fw-bold" href="index.html">
-            <i class="bi bi-heart-pulse-fill me-2 text-primary"></i>
-            <span>${docName}</span>
+            <img src="assets/images/Logo.png" alt="${clinicName}" class="me-2" style="height: 40px; width: auto; object-fit: contain;">
+            <span>SWAYAMBHU <br class="d-md-none"> AYURVEDAM™</span>
           </a>
           
           <!-- Menu Toggler for mobile -->
@@ -139,8 +139,9 @@ function initCommonLayouts() {
           <!-- Offcanvas container -->
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header border-bottom">
-              <h5 class="offcanvas-title fw-bold text-primary" id="offcanvasNavbarLabel">
-                <i class="bi bi-heart-pulse-fill me-2"></i>${docName}
+              <h5 class="offcanvas-title fw-bold text-primary d-flex align-items-center" id="offcanvasNavbarLabel">
+                <img src="assets/images/Logo.png" alt="${clinicName}" class="me-2" style="height: 35px; width: auto; object-fit: contain;">
+                <span>SWAYAMBHU <br> AYURVEDAM™</span>
               </h5>
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
@@ -193,7 +194,7 @@ function initCommonLayouts() {
                     <a href="tel:${phone}" class="text-dark d-flex align-items-center gap-2">
                       <i class="bi bi-telephone-fill text-primary"></i> <span>${phone}</span>
                     </a>
-                    <a href="https://wa.me/${whatsapp}" target="_blank" class="text-success d-flex align-items-center gap-2">
+                    <a href="https://api.whatsapp.com/send/?phone=${whatsapp}&type=phone_number&app_absent=0" target="_blank" class="text-success d-flex align-items-center gap-2">
                       <i class="bi bi-whatsapp"></i> <span>WhatsApp Chat</span>
                     </a>
                     <a href="mailto:${email}" class="text-dark d-flex align-items-center gap-2">
@@ -222,14 +223,14 @@ function initCommonLayouts() {
             <!-- Col 1: About Clinic -->
             <div class="col-lg-4 col-md-6">
               <a class="footer-logo d-flex align-items-center fw-bold text-white mb-3" href="index.html">
-                <i class="bi bi-heart-pulse-fill me-2 text-primary"></i>
-                <span>${clinicName}</span>
+                <img src="assets/images/Logo.png" alt="${clinicName}" class="me-2 bg-white rounded-circle p-1" style="height: 40px; width: 40px; object-fit: contain;">
+                <span>SWAYAMBHU <br class="d-md-none"> AYURVEDAM™</span>
               </a>
               <p class="mb-4" data-i18n="footer_about">Providing premium healthcare products and consultations under ${docName}. 100% natural, tested, and trusted.</p>
               <div class="footer-social-icons">
                 <a href="#" class="footer-social-icon"><i class="bi bi-facebook"></i></a>
                 <a href="#" class="footer-social-icon"><i class="bi bi-instagram"></i></a>
-                <a href="https://wa.me/${whatsapp}" target="_blank" class="footer-social-icon"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=${whatsapp}&type=phone_number&app_absent=0" target="_blank" class="footer-social-icon"><i class="bi bi-whatsapp"></i></a>
                 <a href="mailto:${email}" class="footer-social-icon"><i class="bi bi-envelope"></i></a>
               </div>
             </div>
@@ -261,7 +262,7 @@ function initCommonLayouts() {
               <h5 class="fw-semibold text-white mb-4" data-i18n="nav_contact">Contact Us</h5>
               <p class="mb-2"><i class="bi bi-geo-alt-fill text-primary me-2"></i> ${address}</p>
               <p class="mb-2"><i class="bi bi-telephone-fill text-primary me-2"></i> <a href="tel:${phone}" class="text-white-50">${phone}</a></p>
-              <p class="mb-2"><i class="bi bi-whatsapp text-primary me-2"></i> <a href="https://wa.me/${whatsapp}" target="_blank" class="text-white-50">${whatsapp}</a></p>
+              <p class="mb-2"><i class="bi bi-whatsapp text-primary me-2"></i> <a href="https://api.whatsapp.com/send/?phone=${whatsapp}&type=phone_number&app_absent=0" target="_blank" class="text-white-50">${whatsapp}</a></p>
               <p class="mb-2"><i class="bi bi-envelope-fill text-primary me-2"></i> <a href="mailto:${email}" class="text-white-50">${email}</a></p>
             </div>
           </div>
@@ -279,7 +280,7 @@ function initCommonLayouts() {
   if (floatsContainer) {
     floatsContainer.innerHTML = `
       <!-- Floating WhatsApp -->
-      <a href="https://wa.me/${whatsapp}" target="_blank" class="whatsapp-float" aria-label="WhatsApp chat">
+      <a href="https://api.whatsapp.com/send/?phone=${whatsapp}&type=phone_number&app_absent=0" target="_blank" class="whatsapp-float" aria-label="WhatsApp chat">
         <i class="bi bi-whatsapp"></i>
       </a>
       
@@ -422,7 +423,7 @@ function renderFeaturedProducts(lang) {
             </div>
             <div class="product-action-row">
               <a href="product-detail.html?id=${prod.id}" class="btn btn-details btn-sm d-flex align-items-center justify-content-center" data-i18n="btn_view_details">Details</a>
-              <a href="https://wa.me/${CONFIG.whatsapp}?text=Hello%20Doctor,%20I%20am%20interested%20in%20${encodeURIComponent(t.name)}" target="_blank" class="btn btn-order-card btn-sm">
+              <a href="https://api.whatsapp.com/send/?phone=${CONFIG.whatsapp}&text=Hello%20Doctor,%20I%20am%20interested%20in%20${encodeURIComponent(t.name)}&type=phone_number&app_absent=0" target="_blank" class="btn btn-order-card btn-sm">
                 <i class="bi bi-whatsapp"></i><span data-i18n="btn_order_whatsapp">Order</span>
               </a>
             </div>
@@ -486,9 +487,9 @@ function initTypingEffect() {
 
   const lang = localStorage.getItem("app_lang") || "en";
   const texts = {
-    en: "Trusted Ayurvedic Remedies | Doctor Approved | 100% Purity",
-    hi: "विश्वसनीय आयुर्वेदिक उपचार | डॉक्टर द्वारा स्वीकृत | 100% शुद्धता",
-    gu: "ભરોસાપાત્ર આયુર્વેદિક સારવાર | ડોક્ટર માન્ય | 100% શુદ્ધતા"
+    en: "Trusted Ayurvedic remedies",
+    hi: "विश्वसनीय आयुर्वेदिक उपचार",
+    gu: "ભરોસાપાત્ર આયુર્વેદિક ઉપચારો"
   };
 
   const text = texts[lang] || texts["en"];
@@ -633,7 +634,7 @@ function renderCatalog(lang) {
             </div>
             <div class="product-action-row">
               <a href="product-detail.html?id=${prod.id}" class="btn btn-details btn-sm d-flex align-items-center justify-content-center" data-i18n="btn_view_details">Details</a>
-              <a href="https://wa.me/${CONFIG.whatsapp}?text=Hello%20Doctor,%20I%20am%20interested%20in%20${encodeURIComponent(t.name)}" target="_blank" class="btn btn-order-card btn-sm">
+              <a href="https://api.whatsapp.com/send/?phone=${CONFIG.whatsapp}&text=Hello%20Doctor,%20I%20am%20interested%20in%20${encodeURIComponent(t.name)}&type=phone_number&app_absent=0" target="_blank" class="btn btn-order-card btn-sm">
                 <i class="bi bi-whatsapp"></i><span data-i18n="btn_order_whatsapp">Order</span>
               </a>
             </div>
@@ -774,7 +775,7 @@ function renderProductDetails(prodId, lang) {
           </ul>
           
           <div class="d-flex flex-wrap gap-3 mt-4 border-top pt-4 justify-content-center justify-content-sm-start">
-            <a href="https://wa.me/${CONFIG.whatsapp}?text=Hello%20Doctor,%20I%20am%20interested%20in%20buying%20the%20product%20*${encodeURIComponent(t.name)}*." target="_blank" class="btn btn-whatsapp-custom d-inline-flex align-items-center gap-2 px-4 py-3">
+            <a href="https://api.whatsapp.com/send/?phone=${CONFIG.whatsapp}&text=Hello%20Doctor,%20I%20am%20interested%20in%20buying%20the%20product%20*${encodeURIComponent(t.name)}*.&type=phone_number&app_absent=0" target="_blank" class="btn btn-whatsapp-custom d-inline-flex align-items-center gap-2 px-4 py-3">
               <i class="bi bi-whatsapp fs-5"></i> <span data-i18n="btn_order_whatsapp">Order on WhatsApp</span>
             </a>
             <a href="tel:${CONFIG.phone}" class="btn btn-secondary-custom d-inline-flex align-items-center gap-2 px-4 py-3">
