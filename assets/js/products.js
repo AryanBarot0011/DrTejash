@@ -188,7 +188,7 @@ const PRODUCTS = [
     "isNew": true,
     "image": "assets/images/Hair_mask_main.jpeg",
     "images": [
-      "assets/images/hair_mask_main.jpeg",
+      "assets/images/Hair_mask_main.jpeg",
       "assets/images/hair_mask_multiple1.jpeg",
       "assets/images/hair_mask_multiple2.jpeg",
       "assets/images/hair_mask_multiple3.jpeg"
