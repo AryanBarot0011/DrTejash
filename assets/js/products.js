@@ -300,7 +300,7 @@ const PRODUCTS = [
     "id": "fairness-cream",
     "price": 450,
     "category": "beauty-care",
-    "isPopular": true,
+    "isPopular": false,
     "isNew": false,
     "image": "assets/images/Fairness_cream_main.jpeg",
     "images": [
