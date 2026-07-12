@@ -252,8 +252,6 @@ function initCommonLayouts() {
               <ul class="footer-links">
                 <li><a href="faq.html" data-i18n="nav_faq">FAQ</a></li>
                 <li><a href="contact.html" data-i18n="nav_contact">Contact Us</a></li>
-                <li><a href="#" data-i18n="privacy_policy">Privacy Policy</a></li>
-                <li><a href="#" data-i18n="terms_conditions">Terms & Conditions</a></li>
               </ul>
             </div>
             

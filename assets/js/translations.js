@@ -23,7 +23,7 @@ const TRANSLATIONS = {
     btn_read_more: "Read More",
 
     // Home Page
-    hero_upper_subtitle: "Dr. TJ's Ayurvedic Homemade cosmetic products",
+    hero_upper_subtitle: "Dr. Tejas Ayurvedic Homemade cosmetic products",
     hero_title: "Ayurvedic Homemade Cosmetic Products",
     hero_subtitle: "Crafted by medical experts to ensure health, purity, and trust for your family.",
     about_preview_title: "Caring for skin and Hair...",
@@ -138,11 +138,9 @@ const TRANSLATIONS = {
     working_hours_val: "Mon - Sat: 10:00 AM - 1:00 PM, 5:00 PM - 9:00 PM (Sunday Closed)",
 
     // Footer
-    footer_about: "Providing premium healthcare products and consultations under Dr. Tejash. 100% natural, tested, and trusted.",
+    footer_about: "Providing premium healthcare products and consultations under Dr. Tejas  100% natural, tested, and trusted.",
     quick_links: "Quick Links",
     footer_copyright: "All Rights Reserved.",
-    privacy_policy: "Privacy Policy",
-    terms_conditions: "Terms & Conditions"
   },
   hi: {
     // Navigation & Common
