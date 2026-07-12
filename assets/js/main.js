@@ -386,6 +386,7 @@ function initHomePage() {
   renderFeaturedProducts(lang);
   initStatsCounters();
   initTypingEffect();
+  initTestimonialCarousel();
 
   document.addEventListener("languageChanged", (e) => {
     renderFeaturedProducts(e.detail.lang);
@@ -909,10 +910,37 @@ function initTestimonialsPage() {
   const lang = localStorage.getItem("app_lang") || "en";
   renderVideoTestimonials();
   renderBeforeAfter(lang);
+  initTestimonialCarousel();
 
   document.addEventListener("languageChanged", (e) => {
     renderBeforeAfter(e.detail.lang);
   });
+}
+
+function initTestimonialCarousel() {
+  if (typeof $ !== "undefined" && $.fn.owlCarousel) {
+    $('.testimonial-carousel').owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: true,
+      dots: true,
+      autoplay: true,
+      autoplayTimeout: 6000,
+      autoplayHoverPause: true,
+      navText: ['<i class="bi bi-chevron-left"></i>', '<i class="bi bi-chevron-right"></i>'],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 2
+        },
+        992: {
+          items: 3
+        }
+      }
+    });
+  }
 }
 
 function renderVideoTestimonials() {

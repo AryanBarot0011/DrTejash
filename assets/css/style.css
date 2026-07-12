@@ -1580,6 +1580,87 @@ a {
   justify-content: center;
 }
 
+/* Testimonial Owl Carousel Styling */
+.testimonial-carousel-wrapper {
+  position: relative;
+  padding: 0 20px;
+}
+.testimonial-carousel .owl-stage {
+  display: flex !important;
+}
+.testimonial-carousel .owl-item {
+  display: flex !important;
+  flex: 1 0 auto;
+}
+.testimonial-carousel .item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.testimonial-carousel .review-card {
+  height: 100%;
+  margin: 10px 5px 25px 5px; /* Added margins to allow card shadow to render without clipping */
+  transition: var(--transition-smooth);
+}
+.testimonial-carousel .review-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--hover-shadow) !important;
+}
+.testimonial-carousel .owl-nav button.owl-prev,
+.testimonial-carousel .owl-nav button.owl-next {
+  width: 45px;
+  height: 45px;
+  background-color: var(--primary) !important;
+  color: white !important;
+  border-radius: 50% !important;
+  font-size: 1.5rem !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: var(--transition-smooth) !important;
+  box-shadow: 0 4px 15px rgba(0, 150, 136, 0.2);
+  border: none !important;
+}
+.testimonial-carousel .owl-nav button.owl-prev {
+  left: -50px;
+}
+.testimonial-carousel .owl-nav button.owl-next {
+  right: -50px;
+}
+.testimonial-carousel .owl-nav button:hover {
+  background-color: #007a6e !important;
+  transform: translateY(-50%) scale(1.05);
+}
+.testimonial-carousel .owl-dots {
+  text-align: center;
+  margin-top: 15px;
+}
+.testimonial-carousel .owl-dot span {
+  width: 10px !important;
+  height: 10px !important;
+  background-color: var(--border-color) !important;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+  transition: var(--transition-smooth);
+}
+.testimonial-carousel .owl-dot.active span {
+  background-color: var(--primary) !important;
+  width: 24px !important;
+  border-radius: 5px;
+}
+@media (max-width: 1200px) {
+  .testimonial-carousel .owl-nav {
+    display: none !important;
+  }
+  .testimonial-carousel-wrapper {
+    padding: 0;
+  }
+}
+
 /* GitHub Pages trigger comment */
 
 

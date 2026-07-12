@@ -15,7 +15,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Handmade Hair Oil (Kshirpak Vidhi)",
+        "name": "Swayambhu Handmade Hair Oil (Kshirpak Vidhi) (100 ml)",
         "shortDesc": "Handmade Ayurvedic hair oil prepared using traditional Kshirpak Vidhi.",
         "description": "A premium, handmade hair oil crafted with the authentic Ayurvedic Kshirpak Vidhi. It nourishes the hair roots, strengthens the hair follicles, and promotes healthy hair growth.",
         "benefits": [
@@ -30,7 +30,7 @@ const PRODUCTS = [
         "warnings": "For external use only. Avoid contact with eyes."
       },
       "hi": {
-        "name": "स्वयंभू हैंडमेड हेयर ऑयल (क्षीरपाक विधि)",
+        "name": "स्वयंभू हैंडमेड हेयर ऑयल (क्षीरपाक विधि) (100 ml)",
         "shortDesc": "पारंपरिक क्षीरपाक विधि से तैयार हैंडमेड आयुर्वेदिक हेयर ऑयल।",
         "description": "असली आयुर्वेदिक क्षीरपाक विधि द्वारा तैयार एक प्रीमियम हैंडमेड हेयर ऑयल। यह बालों की जड़ों को पोषण देता है, बालों के रोम को मजबूत करता है और स्वस्थ विकास को बढ़ावा देता है।",
         "benefits": [
@@ -45,7 +45,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए। आँखों के संपर्क से बचाएं।"
       },
       "gu": {
-        "name": "સ્વયંભૂ હેન્ડમેડ હેર ઓઈલ (ક્ષીરપાક વિધિ)",
+        "name": "સ્વયંભૂ હેન્ડમેડ હેર ઓઈલ (ક્ષીરપાક વિધિ) (100 ml)",
         "shortDesc": "પરંપરાગત ક્ષીરપાક વિધિ દ્વારા તૈયાર કરાયેલ આયુર્વેદિક તેલ.",
         "description": "પરંપરાગત આયુર્વેદિક ક્ષીરપાક વિધિ દ્વારા તૈયાર કરવામાં આવેલું પ્રીમિયમ હેન્ડમેડ હેર ઓઈલ. તે વાળના મૂળને પોષણ આપીને તેનો મજબૂત અને ઝડપી વિકાસ કરે છે.",
         "benefits": [
@@ -75,7 +75,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Handmade Hair Shampoo",
+        "name": "Swayambhu Handmade Hair Shampoo (200 ml)",
         "shortDesc": "Frizz-free, smooth, and healthy hair with Amla & Shikakai.",
         "description": "A gentle, handmade herbal shampoo that cleanses the scalp without stripping natural oils. Paraben-free and SLS-free for healthy, silky hair.",
         "benefits": [
@@ -89,7 +89,7 @@ const PRODUCTS = [
         "warnings": "Avoid contact with eyes. Do not apply on broken or irritated skin."
       },
       "hi": {
-        "name": "स्वयंभू हैंडमेड हेयर शैम्पू",
+        "name": "स्वयंभू हैंडमेड हेयर शैम्पू (200 ml)",
         "shortDesc": "आंवला और शिकाकाई से युक्त फ्रिज़-फ्री, मुलायम और स्वस्थ बाल।",
         "description": "एक कोमल, हैंडमेड हर्बल शैम्पू जो प्राकृतिक तेलों को छीने बिना स्कैल्प को साफ करता है। स्वस्थ, रेशमी बालों के लिए पैराबेन-मुक्त और एसएलएस-मुक्त फॉर्मूला।",
         "benefits": [
@@ -103,7 +103,7 @@ const PRODUCTS = [
         "warnings": "आँखों के संपर्क से बचाएं। कटी-फटी या चिड़चिड़ी त्वचा पर न लगाएं।"
       },
       "gu": {
-        "name": "સ્વયંભૂ હેન્ડમેડ હેર શેમ્પૂ",
+        "name": "સ્વયંભૂ હેન્ડમેડ હેર શેમ્પૂ (200 ml)",
         "shortDesc": "આમળા અને શિકાકાઈ યુક્ત નરમ, રેશમી અને સ્વસ્થ વાળ.",
         "description": "એક સૌમ્ય, હેન્ડમેડ હર્બલ શેમ્પૂ જે કુદરતી તેલ ગુમાવ્યા વિના સ્કેલ્પને સાફ કરે છે. સ્વસ્થ અને ચમકદાર વાળ માટે પેરાબેન-મુક્ત અને SLS-મુક્ત.",
         "benefits": [
@@ -134,7 +134,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Handmade Hair Growth Serum",
+        "name": "Swayambhu Handmade Hair Growth Serum (30 ml)",
         "shortDesc": "Reduces hair fall, controls dandruff, and promotes hair growth.",
         "description": "An organic, handmade hair growth serum enriched with Vitamin E, Argan oil, and Jojoba oil. It locks in moisture and revitalizes the scalp.",
         "benefits": [
@@ -149,7 +149,7 @@ const PRODUCTS = [
         "warnings": "For external use only. Avoid contact with eyes."
       },
       "hi": {
-        "name": "स्वयंभू हैंडमेड हेयर ग्रोथ सीरम",
+        "name": "स्वयंभू हैंडमेड हेयर ग्रोथ सीरम (30 ml)",
         "shortDesc": "बालों का झड़ना कम करे, डैंड्रफ नियंत्रित करे और बालों के विकास को बढ़ाए।",
         "description": "विटामिन ई, आर्गन तेल और जोजोबा तेल से समृद्ध एक प्राकृतिक हैंडमेड हेयर ग्रोथ सीरम। यह बालों को गहराई से नमी प्रदान करता है और स्कैल्प को स्वस्थ बनाता है।",
         "benefits": [
@@ -164,7 +164,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए। आँखों के संपर्क से बचाएं।"
       },
       "gu": {
-        "name": "સ્વયંભૂ હેન્ડમેડ હેર ગ્રોથ સિરમ",
+        "name": "સ્વયંભૂ હેન્ડમેડ હેર ગ્રોથ સિરમ (30 ml)",
         "shortDesc": "વાળ ખરતા અટકાવે છે, ખોડો નિયંત્રિત કરે છે અને વાળનો વિકાસ વધારે છે.",
         "description": "વિટામિન E, આર્ગન ઓઈલ અને જોજોબા ઓઈલ ધરાવતું આયુર્વેદિક હેન્ડમેડ હેર સિરમ. તે વાળને ઊંડું પોષણ આપે છે અને મૂળ મજબૂત કરે છે.",
         "benefits": [
@@ -195,7 +195,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Ayurvedic Hair Mask (Advance Damage Repair)",
+        "name": "Swayambhu Ayurvedic Hair Mask (Advance Damage Repair) (100 gm)",
         "shortDesc": "Deep hydration, frizz control, and damage repair with Argan oil.",
         "description": "An advanced Ayurvedic damage repair hair mask formulated with Aloe extract, Shea butter, and Argan oil. Strengthens hair shafts, boosts elasticity, and restores natural shine.",
         "benefits": [
@@ -209,7 +209,7 @@ const PRODUCTS = [
         "warnings": "For external use only. Avoid contact with eyes."
       },
       "hi": {
-        "name": "स्वयंभू आयुर्वेदिक हेयर मास्क (एडवांस डैमेज रिपेयर)",
+        "name": "स्वयंभू आयुर्वेदिक हेयर मास्क (एडवांस डैमेज रिपेयर) (100 gm)",
         "shortDesc": "आर्गन तेल के साथ गहन हाइड्रेशन, फ्रिज़ नियंत्रण और बालों की मरम्मत।",
         "description": "एलोवेरा अर्क, शिया बटर और आर्गन तेल से बना एक उन्नत आयुर्वेदिक हेयर रिपेयर मास्क। यह बालों की जड़ों को मजबूत करता है, लचीलापन बढ़ाता है और प्राकृतिक चमक लौटाता है।",
         "benefits": [
@@ -223,7 +223,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए। आँखों में न जाने दें।"
       },
       "gu": {
-        "name": "સ્વયંભૂ આયુર્વેદિક હેર માસ્ક (એડવાન્સ ડેમેજ રિપેર)",
+        "name": "સ્વયંભૂ આયુર્વેદિક હેર માસ્ક (એડવાન્સ ડેમેજ રિપેર) (100 gm)",
         "shortDesc": "આર્ગન ઓઈલ સાથે ડીપ હાઇડ્રેશન, શુષ્કતા નિયંત્રણ અને ડેમેજ રિપેર.",
         "description": "એલોવેરા, લીમડો, શીયા બટર અને આર્ગન તેલ ધરાવતો એડવાન્સ આયુર્વેદિક હેર માસ્ક. તે વાળના ક્ષતિગ્રસ્ત કોષોને પુનર્જીવિત કરે છે અને વાળને કુદરતી ચમક આપે છે.",
         "benefits": [
@@ -251,7 +251,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Ayurvedic Handmade Hair Pack",
+        "name": "Swayambhu Ayurvedic Handmade Hair Pack (80 gm)",
         "shortDesc": "Traditional hair pack to reduce damage and prevent greying.",
         "description": "An authentic Ayurvedic handmade hair pack compiled with natural Amla, Shikakai, Neem, and Henna. Perfect for cleansing and calming scalp irritation.",
         "benefits": [
@@ -266,7 +266,7 @@ const PRODUCTS = [
         "warnings": "For external use only. Perform a patch test to rule out Henna allergy."
       },
       "hi": {
-        "name": "स्वयंभू आयुर्वेदिक हैंडमेड हेयर पैक",
+        "name": "स्वयंभू आयुर्वेदिक हैंडमेड हेयर पैक (80 gm)",
         "shortDesc": "बालों के नुकसान को कम करने और सफेदी रोकने के लिए पारंपरिक पैक।",
         "description": "आंवला, रीठा, शिकाकाई, नीम और हिना के मिश्रण से बना एक प्रामाणिक आयुर्वेदिक हैंडमेड हेयर पैक। यह स्कैल्प को साफ करता है और बालों की कोमलता बढ़ाता है।",
         "benefits": [
@@ -281,7 +281,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए। हिना एलर्जी की जांच के लिए पैच टेस्ट करें।"
       },
       "gu": {
-        "name": "સ્વયંભૂ આયુર્વેદિક હેન્ડમેડ હેર પેક",
+        "name": "સ્વયંભૂ આયુર્વેદિક હેન્ડમેડ હેર પેક (80 gm)",
         "shortDesc": "વાળનું નુકસાન ઘટાડવા અને સફેદ થતા અટકાવવા માટેનો પરંપરાગત પેક.",
         "description": "આમળા, અરીઠા, શિકાકાઈ અને મહેંદી યુક્ત આયુર્વેદિક હેર પેક. તે સ્કેલ્પને સાફ કરે છે, બળતરા શાંત કરે છે અને વાળને કુદરતી કલર આપે છે.",
         "benefits": [
@@ -311,7 +311,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Fairness Cream",
+        "name": "Swayambhu Fairness Cream (30 gm)",
         "shortDesc": "Spot reduction and skin brightening cream.",
         "description": "Enriched with Sandalwood, Turmeric, Kumkumadi oil, and Almond oil, this cream helps reduce hyperpigmentation and black spots, providing a natural glowing skin and fairness.",
         "benefits": [
@@ -325,7 +325,7 @@ const PRODUCTS = [
         "warnings": "For external use only. Avoid contact with eyes."
       },
       "hi": {
-        "name": "स्वयंभू फेयरनेस क्रीम",
+        "name": "स्वयंभू फेयरनेस क्रीम (30 gm)",
         "shortDesc": "काले धब्बे कम करने वाली और स्किन ब्राइटनिंग क्रीम।",
         "description": "चंदन, हल्दी, कुमकुमादि तेल और बादाम के तेल से समृद्ध यह क्रीम पिगमेंटेशन और काले धब्बों को कम करने में मदद करती है, जिससे त्वचा चमकदार और गोरी बनती है।",
         "benefits": [
@@ -339,7 +339,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए। आँखों से संपर्क से बचाएं।"
       },
       "gu": {
-        "name": "સ્વયંભૂ ફેયરનેસ ક્રીમ",
+        "name": "સ્વયંભૂ ફેયરનેસ ક્રીમ (30 gm)",
         "shortDesc": "ત્વચાના ડાઘ-ધબ્બા ઘટાડતી અને ચમક આપતી ક્રીમ.",
         "description": "ચંદન, હળદર, કુમકુમાદિ તેલ અને બદામ તેલ ધરાવતી ક્રીમ. તે ત્વચાના કાળા ડાઘ અને પિગમેન્ટેશન ઘટાડીને કુદરતી ચમક આપે છે.",
         "benefits": [
@@ -360,54 +360,55 @@ const PRODUCTS = [
     "category": "beauty-care",
     "isPopular": true,
     "isNew": false,
-    "image": "assets/images/Fairness_cream_main.jpeg",
+    "image": "assets/images/Night_Cream_main.jpeg",
     "images": [
-      "assets/images/Fairness_cream_main.jpeg",
-      "assets/images/Fairness_cream_multiple1.jpeg",
-      "assets/images/Fairness_cream_multiple2.jpeg"
+      "assets/images/Night_Cream_main.jpeg",
+      "assets/images/Night_Cream_multiple1.jpeg",
+      "assets/images/Night_Cream_multiple2.jpeg",
+      "assets/images/Night_Cream_multiple3.jpeg"
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Night Cream",
-        "shortDesc": "Anti-wrinkle, spot reduction, and skin repairing night cream.",
-        "description": "Enriched with Sandalwood, Turmeric, Kumkumadi oil, and Almond oil, this cream works overnight to reduce wrinkles, dark spots, and signs of aging.",
+        "name": "Swayambhu Night Cream (30 gm)",
+        "shortDesc": "Anti-wrinkle, anti-aging, and spot reduction night cream.",
+        "description": "A premium Ayurvedic night cream formulated with Kumkumadi oil, Almond oil, Coconut oil, Neem extract, Aloe vera extract, Turmeric, and Beet root. It works overnight to treat wrinkles, aging, under-eye melasma, and hyperpigmentation.",
         "benefits": [
-          "Anti Wrinkles & Anti Ageing",
-          "Reduces Under Eye Dark Circles & Black Spots",
-          "Deeply Repairs Skin Overnight"
+          "Anti Wrinkles & Anti Aging",
+          "Treats Under Eye Melasma",
+          "Reduces Hyperpigmentation"
         ],
         "usage": "Wash face, apply dots of cream over face and neck, and massage gently in circular motion at bedtime.",
-        "ingredients": "Aloevera ext, Neem ext, Manjistha ext, Turmeric ext, Sandalwood, Almond oil, Kumkumadi oil, Base, Fragrance.",
-        "suitableFor": "All skin types, especially aging and dry skin.",
-        "warnings": "For external use only. Avoid contact with eyes."
+        "ingredients": "Kumkumadi oil, Almond oil, Coconut oil, Neem extract, Aloe vera extract, Turmeric, Beet root, Base, Fragrance.",
+        "suitableFor": "All skin types, especially aging skin and those with hyperpigmentation.",
+        "warnings": "For external use only. Avoid contact with eyes. Patch test before use."
       },
       "hi": {
-        "name": "स्वयंभू नाइट क्रीम",
-        "shortDesc": "एंटी-रिंकल और त्वचा की मरम्मत करने वाली नाइट क्रीम।",
-        "description": "चंदन, हल्दी, कुमकुमादि तेल और बादाम के तेल से समृद्ध, यह क्रीम झुर्रियों, काले घेरों और बढ़ती उम्र के लक्षणों को कम करने के लिए रात भर काम करती है।",
+        "name": "स्वयंभू नाइट क्रीम (30 gm)",
+        "shortDesc": "एंटी-रिंकल, एंटी-अजिंग और त्वचा की मरम्मत करने वाली नाइट क्रीम।",
+        "description": "कुमकुमादि तेल, बादाम के तेल, नारियल के तेल, नीम के अर्क, एलोवेरा के अर्क, हल्दी और चुकंदर से समृद्ध एक प्रीमियम आयुर्वेदिक नाइट क्रीम। यह झुर्रियों, बढ़ती उम्र के लक्षणों, आंखों के नीचे मेलास्मा (झाइयां) और हाइपरपिग्मेंटेशन को ठीक करने के लिए रात भर काम करती है।",
         "benefits": [
           "झुर्रियों को कम करता है और एंटी-एजिंग",
-          "डार्क सर्कल्स और काले धब्बों को कम करता है",
-          "रात भर में त्वचा की गहराई से मरम्मत करता है"
+          "आँखों के नीचे मेलास्मा को ठीक करता है",
+          "हाइपरपिग्मेंटेशन को कम करता है"
         ],
-        "usage": "चेहरा धोएं, सोने के समय चेहरे और गर्दन पर क्रीम लगाएं और गोलाकार गति में मालिश करें।",
-        "ingredients": "एलोवेरा का अर्क, नीम का अर्क, मंजीष्ठा का अर्क, हल्दी का अर्क, चंदन, बादाम का तेल, कुमकुमादि तेल, बेस, सुगंध।",
-        "suitableFor": "सभी प्रकार की त्वचा, विशेष रूप से बढ़ती उम्र की त्वचा के लिए।",
-        "warnings": "केवल बाहरी उपयोग के लिए। आँखों से संपर्क से बचाएं।"
+        "usage": "चेहरा धोएं, सोने के समय चेहरे और गर्दन पर क्रीम लगाएं और गोलाकार गति में धीरे से मालिश करें।",
+        "ingredients": "कुमकुमादि तेल, बादाम का तेल, नारियल का तेल, नीम का अर्क, एलोवेरा का अर्क, हल्दी, चुकंदर, बेस, सुगंध।",
+        "suitableFor": "सभी प्रकार की त्वचा, विशेष रूप से झुर्रियों और झाइयों वाली त्वचा के लिए।",
+        "warnings": "केवल बाहरी उपयोग के लिए। आँखों से संपर्क से बचाएं। उपयोग से पहले पैच टेस्ट करें।"
       },
       "gu": {
-        "name": "સ્વયંભૂ નાઇટ ક્રીમ",
-        "shortDesc": "ત્વચાની કરચલીઓ દૂર કરતી અને રિપેર કરતી નાઇટ ક્રીમ.",
-        "description": "ચંદન, હળદર, કુમકુમાદિ તેલ અને બદામ તેલ યુક્ત નાઇટ ક્રીમ, જે રાત્રે ત્વચાને રિપેર કરે છે અને કરચલીઓ તેમજ કાળા કુંડાળા ઘટાડે છે.",
+        "name": "સ્વયંભૂ નાઇટ ક્રીમ (30 gm)",
+        "shortDesc": "કરચલીઓ વિરોધી, એન્ટી-એજિંગ અને ડાઘ ઘટાડતી નાઇટ ક્રીમ.",
+        "description": "કુમકુમાદિ તેલ, બદામ તેલ, નાળિયેર તેલ, લીમડાના અર્ક, એલોવેરા અર્ક, હળદર અને બીટ રૂટ ધરાવતી આયુર્વેદિક નાઇટ ક્રીમ. તે રાત્રે ત્વચાને ઊંડાણપૂર્વક રિપેર કરે છે અને કરચલીઓ તેમજ આંખો નીચેના કાળા ડાઘ/મેલાસ્મા અને હાયપરપીગ્મેન્ટેશન ઘટાડે છે.",
         "benefits": [
           "કરચલીઓ અને એન્ટી-એજિંગ અટકાવે છે",
-          "કાળા કુંડાળા અને ડાઘ ઘટાડે છે",
-          "રાતભર ત્વચાને ઊંડાણપૂર્વક રિપેર કરે છે"
+          "આંખો નીચેના મેલાસ્મા મટાડે છે",
+          "હાયપરપીગ્મેન્ટેશન ઘટાડે છે"
         ],
-        "usage": "સાંજે કે રાત્રે ચહેરો ધોઈને લગાવો અને હળવા હાથે ગોળાકાર માલિશ કરો.",
-        "ingredients": "એલોવેરા અર્ક, લીમડા અર્ક, મંજિષ્ઠา અર્ક, હળદર અર્ક, ચંદન, બદામ તેલ, કુમકુમાદિ તેલ, બેઝ, સુગંધ.",
-        "suitableFor": "વધતી ઉંમરની અને કરચલીવાળી ત્વચા માટે ખાસ ઉપયોગી.",
-        "warnings": "માત્ર બાહ્ય ઉપયોગ માટે. આંખોથી બચાવવું."
+        "usage": "રાત્રે ચહેરો ધોઈને ફેસ અને ગરદન પર ક્રીમ લગાવો અને હળવા હાથે ગોળાકાર માલિશ કરો.",
+        "ingredients": "કુમકુમાદિ તેલ, બદામનું તેલ, નાળિયેર તેલ, લીમડાનો અર્ક, એલોવેરા અર્ક, હળદર, બીટ રૂટ, બેઝ, સુગંધ.",
+        "suitableFor": "વધતી ઉંમરની, કરચલીવાળી અને ડાઘ ધરાવતી ત્વચા માટે ખાસ ઉપયોગી.",
+        "warnings": "માત્ર બાહ્ય ઉપયોગ માટે. આંખોથી બચાવવું. પ્રથમ વાર વાપરતા પહેલા પેચ ટેસ્ટ કરવો."
       }
     }
   },
@@ -425,7 +426,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Ayurvedic Face Oil",
+        "name": "Swayambhu Ayurvedic Face Oil (30 ml)",
         "shortDesc": "Kumkumadi & Jojoba face oil for scar and wrinkle reduction.",
         "description": "A luxury Ayurvedic facial oil formulated with Kumkumadi oil, Turmeric, Chandan, and Jojoba oil. Reverses signs of aging, brightens skin tone, and reduces blemishes.",
         "benefits": [
@@ -440,7 +441,7 @@ const PRODUCTS = [
         "warnings": "For external use only. Keep in a cool, dry place."
       },
       "hi": {
-        "name": "स्वयंभू आयुर्वेदिक फेस ऑयल",
+        "name": "स्वयंभू आयुर्वेदिक फेस ऑयल (30 ml)",
         "shortDesc": "निशान और झुर्रियां कम करने के लिए कुमकुमादि और जोजोबा फेस ऑयल।",
         "description": "कुमकुमादि तेल, हल्दी, चंदन और जोजोबा तेल से बना एक शानदार आयुर्वेदिक फेशियल तेल। यह बुढ़ापे के लक्षणों को धीमा करता है, त्वचा में निखार लाता है और दाग-धब्बे मिटाता है।",
         "benefits": [
@@ -455,7 +456,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए। ठंडे और सूखे स्थान पर रखें।"
       },
       "gu": {
-        "name": "સ્વયંભૂ આયુર્વેદિક ફેસ ઓઈલ",
+        "name": "સ્વયંભૂ આયુર્વેદિક ફેસ ઓઈલ (30 ml)",
         "shortDesc": "ડાઘ અને કરચલીઓ ઘટાડવા માટે કુમકુમાદિ અને જોજોબા ફેસ ઓઇલ.",
         "description": "ચંદન, કેસર, કુમકુમાદિ તેલ અને જોજોબા તેલ ધરાવતું આયુર્વેદિક તેલ. તે ત્વચાના ડાઘા અને કરચલીઓ દૂર કરી મોઇશ્ચરાઇઝેશન પૂરું પાડે છે.",
         "benefits": [
@@ -486,7 +487,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Ayurvedic Handmade Face Wash",
+        "name": "Swayambhu Ayurvedic Handmade Face Wash (100 ml)",
         "shortDesc": "Anti-pimple, skin texture correction, and glowing skin facewash.",
         "description": "A soap-free Ayurvedic handmade face wash that cleanses deeply, improves skin tone, cures pimples and acne, and shields from allergies. Paraben-free and SLS-free.",
         "benefits": [
@@ -501,7 +502,7 @@ const PRODUCTS = [
         "warnings": "Avoid direct contact with eyes. If contact occurs, rinse with cold water."
       },
       "hi": {
-        "name": "स्वयंभू आयुर्वेदिक हैंडमेड फेस वॉश",
+        "name": "स्वयंभू आयुर्वेदिक हैंडमेड फेस वॉश (100 ml)",
         "shortDesc": "मुंहासे रोकने वाला, त्वचा की बनावट सुधारने वाला और चमकदार फेस वॉश।",
         "description": "साबुन-मुक्त आयुर्वेदिक हैंडमेड फेस वॉश जो त्वचा को गहराई से साफ करता है, मुंहासे और पिंपल्स को ठीक करता है और त्वचा की रंगत सुधारता है। पैराबेन और एसएलएस से मुक्त।",
         "benefits": [
@@ -516,7 +517,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए। आँखों के सीधे संपर्क से बचाएं।"
       },
       "gu": {
-        "name": "સ્વયંભૂ આયુર્વેદિક હેન્ડમેડ ફેસ વોશ",
+        "name": "સ્વયંભૂ આયુર્વેદિક હેન્ડમેડ ફેસ વોશ (100 ml)",
         "shortDesc": "ખીલ વિરોધી, ત્વચાનું પોત સુધારતું અને ગ્લો આપતું ફેસ વોશ.",
         "description": "સાબુ-રહિત આયુર્વેદિક હેન્ડમેડ ફેસ વોશ જે ત્વચાને ઊંડાણપૂર્વક સાફ કરે છે, ખીલ મટાડે છે અને ગૌરવર્ણ ચમક આપે છે. પેરાબેન અને SLS મુક્ત.",
         "benefits": [
@@ -546,7 +547,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Fairness Soap",
+        "name": "Swayambhu Fairness Soap (80 gm)",
         "shortDesc": "Brightening handmade soap that reduces dark circles and melasma.",
         "description": "An premium Ayurvedic bathing soap crafted with Sandalwood, Turmeric, and Almond oil. Gently cleanses, reduces melasma, and gives a natural glowing skin effect.",
         "benefits": [
@@ -561,7 +562,7 @@ const PRODUCTS = [
         "warnings": "Avoid contact with eyes. In case of contact, flush with water."
       },
       "hi": {
-        "name": "स्वयंभू फेयरनेस आयुर्वेदिक हैंडमेड साबुन",
+        "name": "स्वयंभू फेयरनेस आयुर्वेदिक हैंडमेड साबुन (80 gm)",
         "shortDesc": "डार्क सर्कल और पिग्मेंटेशन को कम करे और त्वचा में चमक लाए।",
         "description": "केसर, चंदन और बादाम के तेल से बना एक प्रीमियम आयुर्वेदिक स्नान साबुन। यह त्वचा को कोमल साफ करता है, झाइयों को हटाता है और प्राकृतिक रूप से चमकदार बनाता है।",
         "benefits": [
@@ -576,7 +577,7 @@ const PRODUCTS = [
         "warnings": "आँखों के संपर्क से बचाएं। संपर्क होने पर पानी से धो लें।"
       },
       "gu": {
-        "name": "સ્વયંભૂ ફેયરનેસ આયુર્વેદિક હેન્ડમેડ સાબુ",
+        "name": "સ્વયંભૂ ફેયરનેસ આયુર્વેદિક હેન્ડમેડ સાબુ (80 gm)",
         "shortDesc": "કાળા કુંડાળા અને પિગમેન્ટેશન ઘટાડે છે અને ત્વચાને તેજસ્વી બનાવે છે.",
         "description": "ચંદન, હળદર અને બદામ તેલથી બનેલો આયુર્વેદિક સાબુ. તે ત્વચાના કાળા કુંડાળા અને મેલાસ્મા દૂર કરે છે તેમજ વધતી ઉંમરની કરચલીઓ અટકાવે છે.",
         "benefits": [
@@ -605,7 +606,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Skincare Soap",
+        "name": "Swayambhu Skincare Soap (80 gm)",
         "shortDesc": "Gentle daily skin nourishing and moisturizing herbal soap.",
         "description": "A pure herbal soap formulated for daily skincare, maintaining skin health, moisture, and natural glow.",
         "benefits": [
@@ -619,7 +620,7 @@ const PRODUCTS = [
         "warnings": "For external use only."
       },
       "hi": {
-        "name": "स्वयंभू स्किनकेयर साबुन",
+        "name": "स्वयंभू स्किनकेयर साबुन (80 gm)",
         "shortDesc": "त्वचा को पोषण देने और नमी बनाए रखने वाला कोमल हर्बल साबुन।",
         "description": "दैनिक त्वचा की देखभाल, नमी और प्राकृतिक चमक बनाए रखने के लिए तैयार एक शुद्ध हर्बल साबुन। (जल्द ही लॉन्च हो रहा है)।",
         "benefits": [
@@ -633,7 +634,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए।"
       },
       "gu": {
-        "name": "સ્વયંભૂ સ્કીનકેર સાબુ",
+        "name": "સ્વયંભૂ સ્કીનકેર સાબુ (80 gm)",
         "shortDesc": "ત્વચાને પોષણ અને મોઇશ્ચરાઇઝેશન આપતો હર્બલ સાબુ.",
         "description": "ત્વચાની દૈનિક સંભાળ, નરમાશ અને ચમક જાળવી રાખવા માટેનો ખાસ સાબુ.",
         "benefits": [
@@ -661,7 +662,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Anti-Pimple Soap",
+        "name": "Swayambhu Anti-Pimple Soap (80 gm)",
         "shortDesc": "Acne fighting soap with antibacterial Neem and Tulsi extracts.",
         "description": "A specialized anti-bacterial soap designed to cure active pimples, prevent acne breakouts, and regulate excess sebum.",
         "benefits": [
@@ -675,7 +676,7 @@ const PRODUCTS = [
         "warnings": "For external use only. Avoid contact with eyes."
       },
       "hi": {
-        "name": "स्वयंभू एंटी-पिंपल साबुन",
+        "name": "स्वयंभू एंटी-पिंपल साबुन (80 gm)",
         "shortDesc": "एंटीबैक्टीरियल नीम और तुलसी अर्क से निर्मित मुंहासे रोधी साबुन।",
         "description": "सक्रिय मुंहासों को ठीक करने, पिंपल्स को रोकने और चेहरे के अतिरिक्त तेल को नियंत्रित करने के लिए निर्मित विशेष साबुन।",
         "benefits": [
@@ -689,7 +690,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए। आँखों से बचाएं।"
       },
       "gu": {
-        "name": "સ્વયંભૂ એન્ટી-ખીલ સાબુ",
+        "name": "સ્વયંભૂ એન્ટી-ખીલ સાબુ (80 gm)",
         "shortDesc": "ખીલ મટાડવા માટે લીમડા અને તુલસીના અર્કથી બનેલો વિશેષ સાબુ.",
         "description": "ખીલ અને ડાઘ મટાડવા તેમજ ત્વચાના વધારાના તેલને નિયંત્રિત કરવા માટે બનાવવામાં આવેલો સાબુ.",
         "benefits": [
@@ -718,7 +719,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Ayurvedic Sunscreen Lotion",
+        "name": "Swayambhu Ayurvedic Sunscreen Lotion (100 ml)",
         "shortDesc": "Natural SPF protection with Aloe Vera and Sandalwood.",
         "description": "A natural sunscreen lotion formulated to protect your skin from harmful UV rays while maintaining moisture and nourishment without greasiness.",
         "benefits": [
@@ -733,7 +734,7 @@ const PRODUCTS = [
         "warnings": "Perform a patch test. For external use only."
       },
       "hi": {
-        "name": "स्वयंभू आयुर्वेदिक सनस्क्रीन लोशन",
+        "name": "स्वयंभू आयुर्वेदिक सनस्क्रीन लोशन (100 ml)",
         "shortDesc": "एलोवेरा और चंदन से युक्त प्राकृतिक एसपीएफ सुरक्षा लोशन।",
         "description": "हानिकारक यूवी किरणों से आपकी त्वचा की रक्षा करने और बिना किसी चिपचिपाहट के त्वचा को पोषण देने के लिए तैयार एक प्राकृतिक सनस्क्रीन लोशन।",
         "benefits": [
@@ -748,7 +749,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए। आँखों में जाने से बचाएं।"
       },
       "gu": {
-        "name": "સ્વયંભૂ આયુર્વેદિક સનસ્ક્રીન લોશન",
+        "name": "સ્વયંભૂ આયુર્વેદિક સનસ્ક્રીન લોશન (100 ml)",
         "shortDesc": "એલોવેરા અને ચંદન યુક્ત કુદરતી SPF સન પ્રોટેક્શન લોશન.",
         "description": "સૂર્યના હાનિકારક કિરણોથી ત્વચાનું રક્ષણ કરવા માટેનો આયુર્વેદિક લોશન. તે ચીકાશ વગર ત્વચાને હાઇડ્રેટ અને પોષિત રાખે છે.",
         "benefits": [
@@ -780,7 +781,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Handmade Baby Care Bathing Soap",
+        "name": "Swayambhu Handmade Baby Care Bathing Soap (80 ml)",
         "shortDesc": "Gentle baby bathing bar with Coconut, Almond & Milk base.",
         "description": "A very mild, handmade bathing soap carefully formulated for baby's delicate skin. Enriched with Coconut oil, Almond oil, and a milk base to nourish and protect skin.",
         "benefits": [
@@ -795,7 +796,7 @@ const PRODUCTS = [
         "warnings": "Avoid direct contact with eyes. Keep out of reach of children without supervision."
       },
       "hi": {
-        "name": "स्वयंभू हैंडमेड बेबी केयर बाथिंग सोप",
+        "name": "स्वयंभू हैंडमेड बेबी केयर बाथिंग सोप (80 ml)",
         "shortDesc": "नारियल, बादाम और दूध बेस से निर्मित कोमल बेबी साबुन।",
         "description": "शिशु की नाजुक त्वचा के लिए सावधानीपूर्वक तैयार किया गया एक बेहद सौम्य हैंडमेड साबुन। यह त्वचा को गहराई से पोषण और सुरक्षा देने के लिए बादाम के तेल और नारियल के तेल से समृद्ध है।",
         "benefits": [
@@ -810,7 +811,7 @@ const PRODUCTS = [
         "warnings": "आँखों के सीधे संपर्क से बचाएं। वयस्कों की देखरेख में ही इस्तेमाल करें।"
       },
       "gu": {
-        "name": "સ્વયંભૂ હેન્ડમેડ બેબી કેર બાથિંગ સાબુ",
+        "name": "સ્વયંભૂ હેન્ડમેડ બેબી કેર બાથિંગ સાબુ (80 ml)",
         "shortDesc": "નાળિયેર, બદામ અને મિલ્ક બેઝ યુક્ત સૌમ્ય બેબી સાબુ.",
         "description": "બાળકની નાજુક ત્વચા માટે ખાસ તૈયાર કરવામાં આવેલો અતિ સૌમ્ય સાબુ. તે બદામ તેલ, નાળિયેર તેલ અને એલોવેરાના ગુણોથી સમૃદ્ધ છે જે બાળકની ત્વચાની રક્ષા કરે છે.",
         "benefits": [
@@ -840,7 +841,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Handmade Ayurvedic Baby Lotion",
+        "name": "Swayambhu Handmade Ayurvedic Baby Lotion (120 ml)",
         "shortDesc": "Nourishing baby lotion to moisturize and protect soft skin.",
         "description": "A natural, non-greasy baby lotion enriched with Almond oil, Olive oil, and Aloe vera. Helps remove dryness and protects baby skin from external environment.",
         "benefits": [
@@ -853,7 +854,7 @@ const PRODUCTS = [
         "warnings": "For external use only. Keep away from direct sunlight."
       },
       "hi": {
-        "name": "स्वयंभू हैंडमेड आयुर्वेदिक बेबी लोशन",
+        "name": "स्वयंभू हैंडमेड आयुर्वेदिक बेबी लोशन (120 ml)",
         "shortDesc": "मुलायम त्वचा को मॉइस्चराइज और सुरक्षित रखने के लिए बेबी लोशन।",
         "description": "बादाम के तेल, जैतून के तेल और एलोवेरा से भरपूर एक प्राकृतिक, गैर-चिपचिपा बेबी लोशन। यह त्वचा के रूखेपन को दूर करता है और शिशु की त्वचा को सुरक्षित रखता है।",
         "benefits": [
@@ -866,7 +867,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए। सीधे सूर्य के प्रकाश से दूर ठंडी जगह पर रखें।"
       },
       "gu": {
-        "name": "સ્વયંભૂ હેન્ડમેડ આયુર્વેદિક બેબી લોશન",
+        "name": "સ્વયંભૂ હેન્ડમેડ આયુર્વેદિક બેબી લોશન (120 ml)",
         "shortDesc": "બાળકની નાજુક ત્વચાને નરમ રાખવા માટે પૌષ્ટિક બેબી લોશન.",
         "description": "બદામનું તેલ, ઓલિવ તેલ અને એલોવેરા યુક્ત કુદરતી બેબી લોશન. તે બાળકની ત્વચાની શુષ્કતા દૂર કરી તેને નરમ અને ચમકદાર રાખે છે.",
         "benefits": [
@@ -895,7 +896,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Kesuda Soap",
+        "name": "Swayambhu Kesuda Soap (80 gm)",
         "shortDesc": "Refreshing summer soap with natural Kesuda (Palash) flowers.",
         "description": "Traditionally crafted soap with Kesuda flower extracts, known for its cooling properties and healing skin rashes, particularly in summer.",
         "benefits": [
@@ -909,7 +910,7 @@ const PRODUCTS = [
         "warnings": "For external use only."
       },
       "hi": {
-        "name": "स्वयंभू केसूड़ा साबुन",
+        "name": "स्वयंभू केसूड़ा साबुन (80 gm)",
         "shortDesc": "प्राकृतिक केसूड़ा (पलाश) फूलों से निर्मित ग्रीष्मकालीन शीतल साबुन।",
         "description": "केसूड़ा फूल के अर्क से बना पारंपरिक साबुन, जो अपनी ठंडक प्रदान करने वाली विशेषताओं और गर्मियों में घमौरियों को ठीक करने के लिए जाना जाता है।",
         "benefits": [
@@ -923,7 +924,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए।"
       },
       "gu": {
-        "name": "સ્વયંભૂ કેસુડા સાબુ",
+        "name": "સ્વયંભૂ કેસુડા સાબુ (80 gm)",
         "shortDesc": "ગરમીમાં શીતળતા આપતો કેસુડાના ફૂલોમાંથી બનેલો સાબુ.",
         "description": "પરંપરાગત રીતે તૈયાર કરાયેલો કેસુડાના ફૂલનો સાબુ, જે ચામડીની ગરમી, અળાઈઓ અને ચકામા મટાડવામાં મદદ કરે છે.",
         "benefits": [
@@ -953,7 +954,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Panchgavya Soap",
+        "name": "Swayambhu Panchgavya Soap (80 gm)",
         "shortDesc": "Traditional purifying soap made with sacred Panchgavya ingredients.",
         "description": "A highly purifying Ayurvedic bathing bar containing Panchgavya (five cow products) which detoxifies skin layers and cures eczema.",
         "benefits": [
@@ -967,7 +968,7 @@ const PRODUCTS = [
         "warnings": "For external use only."
       },
       "hi": {
-        "name": "स्वयंभू पंचगव्य साबुन",
+        "name": "स्वयंभू पंचगव्य साबुन (80 gm)",
         "shortDesc": "पवित्र पंचगव्य सामग्री से बना पारंपरिक शुद्धि साबुन।",
         "description": "एक अत्यंत पवित्र और औषधीय स्नान साबुन जिसमें पंचगव्य (गाय के पांच अमृत उत्पाद) शामिल हैं। यह त्वचा का शोधन करता है और चर्म रोगों को ठीक करता है।",
         "benefits": [
@@ -981,7 +982,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए।"
       },
       "gu": {
-        "name": "સ્વયંભૂ પંચગવ્ય સાબુ",
+        "name": "સ્વયંભૂ પંચગવ્ય સાબુ (80 gm)",
         "shortDesc": "પવિત્ર પંચગવ્યના ઘટકો ધરાવતો ગુણકારી આયુર્વેદિક સાબુ.",
         "description": "ચામડીના રોગો મટાડવા અને લોહીની અશુદ્ધિ દૂર કરવા માટે ગાયના પંચગવ્ય (દૂધ, દહીં, ઘી, ગોમૂત્ર, ગોબર) માંથી બનેલો વિશેષ સાબુ.",
         "benefits": [
@@ -1010,7 +1011,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Ayurvedic Body Wash",
+        "name": "Swayambhu Ayurvedic Body Wash (200 ml)",
         "shortDesc": "Refreshing herbal bathing gel for deep skin purification.",
         "description": "A rejuvenating, sulfate-free body wash enriched with Neem, Aloe Vera, and Tulsi. It gently cleanses the skin, removes dirt and excess oil, and leaves a cooling sensation.",
         "benefits": [
@@ -1025,7 +1026,7 @@ const PRODUCTS = [
         "warnings": "For external use only. Keep out of reach of infants."
       },
       "hi": {
-        "name": "स्वयंभू आयुर्वेदिक बॉडी वॉश",
+        "name": "स्वयंभू आयुर्वेदिक बॉडी वॉश (200 ml)",
         "shortDesc": "त्वचा की गहरी शुद्धि के लिए ताज़गी देने वाला हर्बल बाथिंग जेल।",
         "description": "नीम, एलोवेरा और तुलसी से समृद्ध एक पुनर्जीवित करने वाला सल्फेट-मुक्त बॉडी वॉश। यह त्वचा को कोमलता से साफ करता है, धूल और अतिरिक्त तेल हटाता है और शरीर को शीतलता प्रदान करता है।",
         "benefits": [
@@ -1040,7 +1041,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए। बच्चों की पहुंच से दूर रखें।"
       },
       "gu": {
-        "name": "સ્વયંભૂ આયુર્વેદિક બોડી વોશ",
+        "name": "સ્વયંભૂ આયુર્વેદિક બોડી વોશ (200 ml)",
         "shortDesc": "ત્વચાને તાજગી આપતો લીમડા અને એલોવેરા યુક્ત બોડી વોશ.",
         "description": "લીમડો, તુલસી અને એલોવેરાના અર્ક ધરાવતો કુદરતી બોડી વોશ. તે શરીરમાંથી પ્રદૂષણ દૂર કરે છે અને ત્વચાને મુલાયમ રાખે છે.",
         "benefits": [
@@ -1070,7 +1071,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Ayurvedic Shower Gel",
+        "name": "Swayambhu Ayurvedic Shower Gel (200 ml)",
         "shortDesc": "Hydrating and soothing Ayurvedic shower gel for all skin types.",
         "description": "A premium Ayurvedic shower gel formulated with Neem, Turmeric, Aloe Vera, and Tulsi. It cleanses gently while hydrating, moisturizing, and improving skin tone.",
         "benefits": [
@@ -1085,7 +1086,7 @@ const PRODUCTS = [
         "warnings": "Avoid contact with eyes. Keep in cool place."
       },
       "hi": {
-        "name": "स्वयंभू आयुर्वेदिक शॉवर जेल",
+        "name": "स्वयंभू आयुर्वेदिक शॉवर जेल (200 ml)",
         "shortDesc": "सभी प्रकार की त्वचा के लिए हाइड्रेटिंग और सुखदायक आयुर्वेदिक शॉवर जेल।",
         "description": "नीम, हल्दी, एलोवेरा और तुलसी से समृद्ध एक प्रीमियम आयुर्वेदिक शॉवर जेल। यह त्वचा को धीरे से साफ करता है, नमी प्रदान करता है और त्वचा की रंगत में सुधार करता है।",
         "benefits": [
@@ -1100,7 +1101,7 @@ const PRODUCTS = [
         "warnings": "आँखों में जाने से बचाएं। ठंडे स्थान पर रखें।"
       },
       "gu": {
-        "name": "સ્વયંભૂ આયુર્વેદિક શાવર જેલ",
+        "name": "સ્વયંભૂ આયુર્વેદિક શાવર જેલ (200 ml)",
         "shortDesc": "ત્વચાને હાઇડ્રેટ કરતો લીમડા અને એલોવેરા યુક્ત શાવર જેલ.",
         "description": "લીમડો, હળદર, તુલસી અને એલોવેરાના અર્ક ધરાવતો આયુર્વેદિક શાવર જેલ. તે ત્વચાને સાફ કરી મોઇશ્ચરાઇઝ કરે છે અને સ્કીન ટોન સુધારે છે.",
         "benefits": [
@@ -1131,7 +1132,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Moisturizer Lotion",
+        "name": "Swayambhu Moisturizer Lotion (250 ml)",
         "shortDesc": "Prevents skin dryness, treats allergies, and fights infections.",
         "description": "A premium Ayurvedic handmade moisturizing lotion containing Aloe vera, Neem, and Tea tree oil. Nourishes deep skin layers, locks in moisture, and heals dry skin allergies.",
         "benefits": [
@@ -1147,7 +1148,7 @@ const PRODUCTS = [
         "warnings": "For external use only. Keep away from direct sunlight."
       },
       "hi": {
-        "name": "स्वयंभू मॉइस्चराइज़र लोशन",
+        "name": "स्वयंभू मॉइस्चराइज़र लोशन (250 ml)",
         "shortDesc": "त्वचा के रूखेपन को रोके, एलर्जी का इलाज करे और संक्रमण से बचाए।",
         "description": "एलोवेरा, नीम और टी ट्री ऑयल से युक्त एक प्रीमियम आयुर्वेदिक हैंडमेड मॉइस्चराइजिंग लोशन। यह त्वचा की परतों को पोषण देता है और सूखी त्वचा की एलर्जी को ठीक करता है।",
         "benefits": [
@@ -1163,7 +1164,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए। सीधे धूप से दूर रखें।"
       },
       "gu": {
-        "name": "સ્વયંભૂ મોઇશ્ચરાઇઝર લોશન",
+        "name": "સ્વયંભૂ મોઇશ્ચરાઇઝર લોશન (250 ml)",
         "shortDesc": "અવરોધક શુષ્કતા, એલર્જી મટાડવા અને ચેપ સામે રક્ષણ આપવા માટે લોશન.",
         "description": "એલોવેરા, લીમડો અને ટી ટ્રી તેલ ધરાવતો આયુર્વેદિક લોશન. તે ચામડીની એલર્જી મટાડે છે અને ભેજ જાળવી રાખે છે.",
         "benefits": [
@@ -1194,7 +1195,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Moisturizing Cream",
+        "name": "Swayambhu Moisturizing Cream (50 gm)",
         "shortDesc": "Rich nourishing cream to prevent skin dryness and allergies.",
         "description": "A premium Ayurvedic moisturizing cream formulated with Neem, Aloe Vera, Manjistha, and Turmeric extracts. It prevents skin dryness, supplies hydration, helps with skin allergies, and provides deep moisturization and nourishment.",
         "benefits": [
@@ -1209,7 +1210,7 @@ const PRODUCTS = [
         "warnings": "For external use only. Avoid contact with eyes."
       },
       "hi": {
-        "name": "स्वयंभू मॉइस्चराइजिंग क्रीम",
+        "name": "स्वयंभू मॉइस्चराइजिंग क्रीम (50 gm)",
         "shortDesc": "त्वचा के रूखेपन और एलर्जी को रोकने के लिए पौष्टिक क्रीम।",
         "description": "नीम, एलोवेरा, मंजीष्ठा और हल्दी के अर्क से तैयार एक प्रीमियम आयुर्वेदिक मॉइस्चराइजिंग क्रीम। यह त्वचा के रूखेपन को रोकती है, हाइड्रेशन प्रदान करती है, त्वचा की एलर्जी में मदद करती है, और गहरा पोषण देती है।",
         "benefits": [
@@ -1224,7 +1225,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए। आँखों में न जाने दें।"
       },
       "gu": {
-        "name": "સ્વયંભૂ મોઇશ્ચરાઇઝિંગ ક્રીમ",
+        "name": "સ્વયંભૂ મોઇશ્ચરાઇઝિંગ ક્રીમ (50 gm)",
         "shortDesc": "ચામડીની શુષ્કતા અને એલર્જીથી બચાવતી પૌષ્ટિક ક્રીમ.",
         "description": "લીમડો, એલોવેરા, મંજિષ્ઠા અને હળદરના અર્ક ધરાવતી આયુર્વેદિક મોઇશ્ચરાઇઝિંગ ક્રીમ. તે ત્વચાની શુષ્કતા અટકાવે છે, ભેજ પૂરો પાડે છે, એલર્જી મટાડે છે અને ઊંડું પોષણ આપે છે.",
         "benefits": [
@@ -1255,7 +1256,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Ayurvedic Handmade Lip Balm",
+        "name": "Swayambhu Ayurvedic Handmade Lip Balm (10 gm)",
         "shortDesc": "Natural lip balm for glossy shine, soft, and supple lips.",
         "description": "An organic, handmade Ayurvedic lip balm enriched with Castor oil, Coconut oil, Shea Butter, and Cocoa Butter. It provides a glossy shine and keeps your lips soft and supple.",
         "benefits": [
@@ -1268,7 +1269,7 @@ const PRODUCTS = [
         "warnings": "For external use only. Store in a cool place to prevent melting."
       },
       "hi": {
-        "name": "स्वयंभू आयुर्वेदिक हैंडमेड लिप बाम",
+        "name": "स्वयंभू आयुर्वेदिक हैंडमेड लिप बाम (10 gm)",
         "shortDesc": "चमकदार, कोमल और मुलायम होठों के लिए प्राकृतिक लिप बाम।",
         "description": "अरंडी के तेल (कैस्टर ऑयल), नारियल के तेल, शिया बटर और कोको बटर से भरपूर एक जैविक, हैंडमेड आयुर्वेदिक लिप बाम। यह होठों को चमकदार, कोमल और मुलायम रखता है।",
         "benefits": [
@@ -1281,7 +1282,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए। पिघलने से बचाने के लिए ठंडी जगह पर रखें।"
       },
       "gu": {
-        "name": "સ્વયંભૂ આયુર્વેદિક હેન્ડમેડ લિપ બામ",
+        "name": "સ્વયંભૂ આયુર્વેદિક હેન્ડમેડ લિપ બામ (10 gm)",
         "shortDesc": "ચમકદાર અને મુલાયમ હોઠ માટે નેચરલ લિપ બામ.",
         "description": "દિવેલ (કેસ્ટર ઓઈલ), કોકો બટર, નાળિયેર તેલ અને શીયા બટર ધરાવતો આયુર્વેદિક હેન્ડમેડ લિપ બામ. તે હોઠને નરમ અને ચમકદાર રાખે છે.",
         "benefits": [
@@ -1309,7 +1310,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Foot Care Cream (Soft & Smooth Heel)",
+        "name": "Swayambhu Foot Care Cream (Soft & Smooth Heel) (50 gm)",
         "shortDesc": "Repairs cracked heels, moisturizes, and heals foot skin.",
         "description": "Formulated with Sarshav (Mustard) oil, Kapoor, Manjistha, and Beeswax, this foot care cream repairs deep cracked heels, protects against infection, and heals skin irritation.",
         "benefits": [
@@ -1325,7 +1326,7 @@ const PRODUCTS = [
         "warnings": "For external use only. Do not apply on open, bleeding wounds."
       },
       "hi": {
-        "name": "स्वयंभू फुट केयर क्रीम",
+        "name": "स्वयंभू फुट केयर क्रीम (50 gm)",
         "shortDesc": "फटी एड़ियों को ठीक करने और पैरों को मुलायम बनाने वाली क्रीम।",
         "description": "सरसों का तेल, कपूर, मंजीष्ठा और बीस वैक्स से निर्मित फुट केयर क्रीम। यह पैरों की गहरी फटी एड़ियों को ठीक करती है और संक्रमण व खुजली से बचाती है।",
         "benefits": [
@@ -1341,7 +1342,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए। बहते खून वाले खुले घावों पर न लगाएं।"
       },
       "gu": {
-        "name": "સ્વયંભૂ ફૂટ કેર ક્રીમ (નરમ અને સુંવાળી એડી)",
+        "name": "સ્વયંભૂ ફૂટ કેર ક્રીમ (નરમ અને સુંવાળી એડી) (50 gm)",
         "shortDesc": "ફાટેલી એડીઓ મટાડે છે અને પગની ચામડીને નરમ રાખે છે.",
         "description": "સરસવ તેલ, કપૂર, મંજિષ્ઠા અને મીણ ધરાવતી ફૂટ કેર ક્રીમ. તે પગની ઊંડી ફાટેલી એડીઓને મટાડે છે અને બળતરા કે ખંજવાળ શાંત કરે છે.",
         "benefits": [
@@ -1372,7 +1373,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Handmade Anti-Dandruff Shampoo",
+        "name": "Swayambhu Handmade Anti-Dandruff Shampoo (100 ml)",
         "shortDesc": "Effective anti-dandruff herbal shampoo for clean and healthy scalp.",
         "description": "A premium, handmade anti-dandruff herbal shampoo enriched with natural extracts of Amla, Bhringraj, and Tea tree oil. It controls dandruff and treats scalp skin problems.",
         "benefits": [
@@ -1385,7 +1386,7 @@ const PRODUCTS = [
         "warnings": "Avoid contact with eyes. Do not apply on broken or irritated skin."
       },
       "hi": {
-        "name": "स्वयंभू हैंडमेड एंटी-डैंड्रफ हेयर शैम्पू",
+        "name": "स्वयंभू हैंडमेड एंटी-डैंड्रफ हेयर शैम्पू (100 ml)",
         "shortDesc": "स्वच्छ और स्वस्थ स्कैल्प के लिए प्रभावी एंटी-डैंड्रफ हर्बल शैम्पू।",
         "description": "आंवला, भृंगराज और टी ट्री ऑयल के प्राकृतिक अर्क से समृद्ध एक प्रीमियम, हैंडमेड एंटी-डैंड्रफ हर्बल शैम्पू। यह रूसी को नियंत्रित करता है और स्कैल्प की समस्याओं को ठीक करता है।",
         "benefits": [
@@ -1398,7 +1399,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए। आँखों के संपर्क से बचाएं।"
       },
       "gu": {
-        "name": "સ્વયંભૂ એન્ટી-ખોડો હેર શેમ્પૂ",
+        "name": "સ્વયંભૂ એન્ટી-ખોડો હેર શેમ્પૂ (100 ml)",
         "shortDesc": "ખોડો નિયંત્રિત કરવા માટે અસરકારક આયુર્વેદિક શેમ્પૂ.",
         "description": "આમળા, ભૃંગરાજ અને ટી ટ્રી ઓઈલના કુદરતી અર્કથી સમૃદ્ધ પ્રીમિયમ હેન્ડમેડ એન્ટી-ડેન્ડ્રફ હર્બલ શેમ્પૂ. તે ખોડો નિયંત્રિત કરે છે અને સ્કેલ્પની સમસ્યાઓ મટાડે છે.",
         "benefits": [
@@ -1426,7 +1427,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Premium Hair Care Oil",
+        "name": "Swayambhu Premium Hair Care Oil (30 ml)",
         "shortDesc": "Effective hair care oil to remove dandruff and treat scalp skin problems.",
         "description": "A premium Ayurvedic hair care oil formulated with Neem Bij, Curry Leaves, Bhringraj, Tulsi, Fenugreek, and Shikakai to effectively remove dandruff and treat various hair and scalp skin problems.",
         "benefits": [
@@ -1439,7 +1440,7 @@ const PRODUCTS = [
         "warnings": "For external use only. Avoid contact with eyes."
       },
       "hi": {
-        "name": "स्वयंभू प्रीमियम हेयर केयर ऑयल",
+        "name": "स्वयंभू प्रीमियम हेयर केयर ऑयल (30 ml)",
         "shortDesc": "रूसी हटाने और स्कैल्प की समस्याओं के इलाज के लिए प्रभावी हेयर ऑयल।",
         "description": "नीम के बीज, करी पत्ता, भृंगराज, तुलसी, मेथी और शिकाकाई से तैयार एक प्रीमियम आयुर्वेदिक हेयर ऑयल, जो रूसी को प्रभावी ढंग से हटाता है और स्कैल्प की समस्याओं को ठीक करता है।",
         "benefits": [
@@ -1452,7 +1453,7 @@ const PRODUCTS = [
         "warnings": "केवल बाहरी उपयोग के लिए। आँखों के संपर्क से बचाएं।"
       },
       "gu": {
-        "name": "સ્વયંભૂ પ્રીમિયમ હેર કેર ઓઈલ",
+        "name": "સ્વયંભૂ પ્રીમિયમ હેર કેર ઓઈલ (30 ml)",
         "shortDesc": "ખોડો દૂર કરવા અને સ્કેલ્પની સમસ્યાઓ મટાડવા માટે અસરકારક તેલ.",
         "description": "લીમડાના બીજ, મીઠો લીમડો (કરી પત્તા), ભૃંગરાજ, તુલસી, મેથી અને શિકાકાઈ ધરાવતું આયુર્વેદિક તેલ, જે ખોડો દૂર કરે છે અને સ્કેલ્પની સમસ્યાઓ મટાડે છે.",
         "benefits": [
@@ -1463,6 +1464,120 @@ const PRODUCTS = [
         "ingredients": "લીમડાના બીજ, મીઠો લીમડો (કરી પત્તા), ભૃંગરાજ, તુલસી, મેથી, શિકાકાઈ.",
         "suitableFor": "ખોડો અને સ્કેલ્પની સમસ્યાઓ ધરાવતા લોકો માટે.",
         "warnings": "માત્ર બાહ્ય ઉપયોગ માટે. આંખોથી બચાવવું."
+      }
+    }
+  },
+  {
+    "id": "aloe-vera-gel",
+    "price": 220,
+    "category": "beauty-care",
+    "isPopular": false,
+    "isNew": true,
+    "image": "assets/images/Aloe_vera_gel_main.jpeg",
+    "images": [
+      "assets/images/Aloe_vera_gel_main.jpeg",
+      "assets/images/Aloe_vera_gel_multiple1.jpeg",
+      "assets/images/Aloe_vera_gel_multiple2.jpeg"
+    ],
+    "translations": {
+      "en": {
+        "name": "Swayambhu Aloe Vera Gel (100 gm)",
+        "shortDesc": "Pure Aloe Vera Gel enriched with Vitamin E, Jojoba oil, Tulsi, and Neem.",
+        "description": "An authentic Ayurvedic homemade Aloe Vera Gel enriched with Vitamin E oil, Jojoba oil, Neem, Turmeric, and Tulsi. It provides deep hydration, soothes skin inflammation, and promotes a natural glowing skin while reducing pigmentation.",
+        "benefits": [
+          "Provides Deep Hydration",
+          "Soothes Skin Inflammation & Redness",
+          "Promotes Natural Glow & Reduces Pigmentation"
+        ],
+        "usage": "Apply gently on clean face and body. Massage in an upward motion until absorbed. Can be used daily as a moisturizer.",
+        "ingredients": "Aloe Vera Gel (Aloe Barbadensis Leaf Extract), Vitamin E Oil, Jojoba Oil, Beads of Vitamin E, Neem Ext., Turmeric Ext., Tulsi Ext., Gel Base, Fragrance.",
+        "suitableFor": "All skin types, especially dry, sensitive, and sun-burnt skin.",
+        "warnings": "For external use only. Store in a cool place."
+      },
+      "hi": {
+        "name": "स्वयंभू एलोवेरा जेल (100 gm)",
+        "shortDesc": "विटामिन ई, जोजोबा तेल, तुलसी और नीम से समृद्ध शुद्ध एलोवेरा जेल।",
+        "description": "एक असली आयुर्वेदिक होममेड एलोवेरा जेल जो विटामिन ई तेल, जोजोबा तेल, नीम, हल्दी और तुलसी से समृद्ध है। यह त्वचा को गहराई से नमी (हाइड्रेशन) प्रदान करता है, त्वचा की जलन और सूजन को शांत करता है और पिगमेंटेशन को कम करते हुए प्राकृतिक चमक को बढ़ावा देता है।",
+        "benefits": [
+          "त्वचा को गहराई से नमी प्रदान करता है",
+          "त्वचा की जलन और लाली को शांत करता है",
+          "प्राकृतिक चमक देता है और पिगमेंटेशन को कम करता है"
+        ],
+        "usage": "साफ चेहरे और शरीर पर धीरे से लगाएं। अवशोषित होने तक ऊपर की ओर मालिश करें। दैनिक मॉइस्चराइज़र के रूप में इस्तेमाल किया जा सकता है।",
+        "ingredients": "एलोवेरा जेल (एलोवेरा का अर्क), विटामिन ई तेल, जोजोबा तेल, विटामिन ई के बीड्स, नीम का अर्क, हल्दी का अर्क, तुलसी का अर्क, जेल बेस, सुगंध।",
+        "suitableFor": "सभी प्रकार की त्वचा, विशेष रूप से शुष्क और संवेदनशील त्वचा के लिए।",
+        "warnings": "केवल बाहरी उपयोग के लिए। ठंडे स्थान पर रखें।"
+      },
+      "gu": {
+        "name": "સ્વયંભૂ એલોવેરા જેલ (100 gm)",
+        "shortDesc": "વિટામિન E, જોજોબા તેલ, તુલસી અને લીમડા યુક્ત શુદ્ધ એલોવેરા જેલ.",
+        "description": "પરંપરાગત રીતે તૈયાર કરાયેલ આયુર્વેદિક એલોવેરા જેલ, જે વિટામિન E, જોજોબા તેલ, લીમડો, હળદર અને તુલસીના અર્કથી સમૃદ્ધ છે. તે ત્વચાને ઊંડી ભેજ (હાઇડ્રેશન) પૂરી પાડે છે, બળતરા શાંત કરે છે અને ત્વચાને કુદરતી ચમક આપી પિગમેન્ટેશન ઘટાડે છે.",
+        "benefits": [
+          "ત્વચાને ઊંડી ભેજ (હાઇડ્રેશન) પૂરી પાડે છે",
+          "ત્વચાની બળતરા અને લાલાશ શાંત કરે છે",
+          "કુદરતી ચમક આપે છે અને પિગમેન્ટેશન ઘટાડે છે"
+        ],
+        "usage": "સાફ કરેલા ચહેરો અને શરીર પર લગાવો. શોષાઈ જાય ત્યાં સુધી હળવા હાથે મસાજ કરો. રોજિંદા મોઇશ્ચરાઇઝર તરીકે ઉપયોગ કરી શકાય છે.",
+        "ingredients": "એલોવેરા જેલ, વિટામિન E ઓઇલ, જોજોબા ઓઇલ, વિટામિન E ના બીડ્સ, લીમડા અર્ક, હળદર અર્ક, તુલસી અર્ક, જેલ બેઝ, સુગંધ.",
+        "suitableFor": "તમામ પ્રકારની ત્વચા, ખાસ કરીને સૂકી અને સંવેદનશીલ ત્વચા માટે.",
+        "warnings": "માત્ર બાહ્ય ઉપયોગ માટે. ઠંડી જગ્યાએ સંગ્રહ કરવો."
+      }
+    }
+  },
+  {
+    "id": "ayurvedic-scrub",
+    "price": 250,
+    "category": "beauty-care",
+    "isPopular": false,
+    "isNew": true,
+    "image": "assets/images/Ayurvedic_scrub_main.jpeg",
+    "images": [
+      "assets/images/Ayurvedic_scrub_main.jpeg",
+      "assets/images/Ayurvedic_scrub_multiple1.jpeg",
+      "assets/images/Ayurvedic_scrub_multiple2.jpeg"
+    ],
+    "translations": {
+      "en": {
+        "name": "Swayambhu Ayurvedic Scrub (100 gm)",
+        "shortDesc": "Walnut facial scrub enriched with Argan oil, Coconut oil, Neem, and Turmeric.",
+        "description": "A premium Ayurvedic homemade scrub formulated with natural Walnut shell powder, Argan oil, Coconut oil, and extracts of Neem, Turmeric, and Tulsi. It effectively removes blackheads and whiteheads, repairs dead skin cells, cures pimples, and makes the skin brighter, lighter, and glowing.",
+        "benefits": [
+          "Removes Blackheads & Whiteheads",
+          "Repairs Dead Cells & Removes Pimples",
+          "Brightens, Lightens, & Gives Glowing Skin"
+        ],
+        "usage": "Moisten face and neck, apply scrub and massage gently with fingertips in circular motions for 2-3 minutes, avoiding the eye area. Rinse off with water and pat dry. Use 1-2 times a week.",
+        "ingredients": "Walnut Scrub, Argan Oil, Coconut Oil, Vitamin E Extract, Neem Extract, Turmeric Extract, Tulsi Extract, Base, Fragrance.",
+        "suitableFor": "All skin types, especially those with blackheads, acne, or dull skin.",
+        "warnings": "For external use only. Avoid contact with eyes. Do not scrub harshly on active acne."
+      },
+      "hi": {
+        "name": "स्वयंभू आयुर्वेदिक स्क्रब (100 gm)",
+        "shortDesc": "आर्गन तेल, नारियल तेल, नीम और हल्दी से समृद्ध अखरोट फेस स्क्रब।",
+        "description": "प्राकृतिक अखरोट के छिलके के पाउडर, आर्गन तेल, नारियल के तेल और नीम, हल्दी और तुलसी के अर्क से तैयार एक प्रीमियम आयुर्वेदिक होममेड स्क्रब। यह ब्लैकहेड्स और व्हाइटहेड्स को प्रभावी ढंग से हटाता है, मृत त्वचा कोशिकाओं की मरम्मत करता है, मुँहासे ठीक करता है और त्वचा को अधिक चमकदार, गोरा और दीप्तिमान बनाता है।",
+        "benefits": [
+          "ब्लैकहेड्स और व्हाइटहेड्स को हटाता है",
+          "मृत कोशिकाओं की मरम्मत करता है और मुँहासे ठीक करता है",
+          "त्वचा को चमकदार, गोरा और कांतिमय बनाता है"
+        ],
+        "usage": "चेहरे और गर्दन को गीला करें, स्क्रब लगाएं और उंगलियों से 2-3 मिनट तक गोलाकार गति में धीरे से मालिश करें, आंखों के क्षेत्र से बचें। पानी से धो लें और थपथपाकर सुखाएं। सप्ताह में 1-2 बार प्रयोग करें।",
+        "ingredients": "अखरोट का स्क्रब, आर्गन तेल, नारियल का तेल, विटामिन ई का अर्क, नीम का अर्क, हल्दी का अर्क, तुलसी का अर्क, बेस, सुगंध।",
+        "suitableFor": "सभी प्रकार की त्वचा, विशेष रूप से ब्लैकहेड्स, मुंहासे या बेजान त्वचा के लिए।",
+        "warnings": "केवल बाहरी उपयोग के लिए। आँखों के संपर्क से बचाएं। सक्रिय मुंहासों पर जोर से न रगड़ें।"
+      },
+      "gu": {
+        "name": "સ્વયંભૂ આયુર્વેદિક સ્ક્રબ (100 gm)",
+        "shortDesc": "આર્ગન તેલ, નાળિયેર તેલ, લીમડો અને હળદર યુક્ત અખરોટ ફેસ સ્ક્રબ.",
+        "description": "કુદરતી અખરોટ (વોલનટ) સેલ પાવડર, આર્ગન તેલ, નાળિયેર તેલ અને લીમડા, હળદર તેમજ તુલસીના અર્ક ધરાવતું પ્રીમિયમ આયુર્વેદિક સ્ક્રબ. તે બ્લેકહેડ્સ અને વ્હાઇટહેડ્સ દૂર કરે છે, મૃત કોષો રિપેર કરે છે, ખીલ મટાડે છે અને ત્વચાને વધુ તેજસ્વી તેમજ સુંદર બનાવે છે.",
+        "benefits": [
+          "બ્લેકહેડ્સ અને વ્હાઇટહેડ્સ દૂર કરે છે",
+          "મૃત કોષો રિપેર કરે છે અને ખીલ મટાડે છે",
+          "તોચાને વધુ તેજસ્વી, ગોરી અને ચમકદાર બનાવે છે"
+        ],
+        "usage": "ચહેરો અને ગરદન ભીની કરો, સ્ક્રબ લગાવો અને આંગળીઓ વડે ૨-૩ મિનિટ સુધી ગોળાકાર મસાજ કરો (આંખોની આજુબાજુ બચવું). પાણીથી ધોઈ લો. અઠવાડિયામાં ૧-૨ વાર વાપરો.",
+        "ingredients": "અખરોટ સ્ક્રબ, આર્ગન ઓઇલ, નાળિયેર તેલ, વિટામિન E અર્ક, લીમડા અર્ક, હળદર અર્ક, તુલસી અર્ક, બેઝ, સુગંધ.",
+        "suitableFor": "તમામ પ્રકારની ત્વચા, ખાસ કરીને બ્લેકહેડ્સ કે ખીલ ધરાવતી ત્વચા માટે.",
+        "warnings": "માત્ર બાહ્ય ઉપયોગ માટે. આંખોથી બચાવવું. સક્રિય ખીલ પર વધુ જોરથી ઘસવું નહીં."
       }
     }
   }
