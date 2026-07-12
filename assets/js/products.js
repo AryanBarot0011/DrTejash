@@ -124,9 +124,9 @@ const PRODUCTS = [
     "category": "hair-care",
     "isPopular": true,
     "isNew": false,
-    "image": "assets/images/Hair_serum_main_new.jpeg",
+    "image": "assets/images/hair_serum_main_new.jpeg",
     "images": [
-      "assets/images/Hair_serum_main_new.jpeg",
+      "assets/images/hair_serum_main_new.jpeg",
       "assets/images/Hair_serum_multiple1.jpeg",
       "assets/images/Hair_serum_multiple2.jpeg",
       "assets/images/Hair_serum_multiple5.jpeg",
@@ -781,7 +781,7 @@ const PRODUCTS = [
     ],
     "translations": {
       "en": {
-        "name": "Swayambhu Handmade Baby Care Bathing Soap (80 ml)",
+        "name": "Swayambhu Handmade Baby Care Bathing Soap (80 gm)",
         "shortDesc": "Gentle baby bathing bar with Coconut, Almond & Milk base.",
         "description": "A very mild, handmade bathing soap carefully formulated for baby's delicate skin. Enriched with Coconut oil, Almond oil, and a milk base to nourish and protect skin.",
         "benefits": [
@@ -796,7 +796,7 @@ const PRODUCTS = [
         "warnings": "Avoid direct contact with eyes. Keep out of reach of children without supervision."
       },
       "hi": {
-        "name": "स्वयंभू हैंडमेड बेबी केयर बाथिंग सोप (80 ml)",
+        "name": "स्वयंभू हैंडमेड बेबी केयर बाथिंग सोप (80 gm)",
         "shortDesc": "नारियल, बादाम और दूध बेस से निर्मित कोमल बेबी साबुन।",
         "description": "शिशु की नाजुक त्वचा के लिए सावधानीपूर्वक तैयार किया गया एक बेहद सौम्य हैंडमेड साबुन। यह त्वचा को गहराई से पोषण और सुरक्षा देने के लिए बादाम के तेल और नारियल के तेल से समृद्ध है।",
         "benefits": [
@@ -811,7 +811,7 @@ const PRODUCTS = [
         "warnings": "आँखों के सीधे संपर्क से बचाएं। वयस्कों की देखरेख में ही इस्तेमाल करें।"
       },
       "gu": {
-        "name": "સ્વયંભૂ હેન્ડમેડ બેબી કેર બાથિંગ સાબુ (80 ml)",
+        "name": "સ્વયંભૂ હેન્ડમેડ બેબી કેર બાથિંગ સાબુ (80 gm)",
         "shortDesc": "નાળિયેર, બદામ અને મિલ્ક બેઝ યુક્ત સૌમ્ય બેબી સાબુ.",
         "description": "બાળકની નાજુક ત્વચા માટે ખાસ તૈયાર કરવામાં આવેલો અતિ સૌમ્ય સાબુ. તે બદામ તેલ, નાળિયેર તેલ અને એલોવેરાના ગુણોથી સમૃદ્ધ છે જે બાળકની ત્વચાની રક્ષા કરે છે.",
         "benefits": [
