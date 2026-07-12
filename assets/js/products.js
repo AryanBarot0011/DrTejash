@@ -124,13 +124,13 @@ const PRODUCTS = [
     "category": "hair-care",
     "isPopular": true,
     "isNew": false,
-    "image": "assets/images/Hair_serum_main.jpeg",
+    "image": "assets/images/Hair_serum_main_new.jpeg",
     "images": [
-      "assets/images/Hair_serum_main.jpeg",
+      "assets/images/Hair_serum_main_new.jpeg",
       "assets/images/Hair_serum_multiple1.jpeg",
       "assets/images/Hair_serum_multiple2.jpeg",
-      "assets/images/Hair_serum_multiple3.jpeg",
-      "assets/images/Hair_serum_multiple4.jpeg"
+      "assets/images/Hair_serum_multiple5.jpeg",
+      "assets/images/Hair_serum_multiple6.jpeg"
     ],
     "translations": {
       "en": {
