@@ -418,9 +418,9 @@ const PRODUCTS = [
     "category": "beauty-care",
     "isPopular": true,
     "isNew": false,
-    "image": "assets/images/Face_oil_main_new.jpeg",
+    "image": "assets/images/face_oil_main_new.jpeg",
     "images": [
-      "assets/images/Face_oil_main_new.jpeg",
+      "assets/images/face_oil_main_new.jpeg",
       "assets/images/Face_oil_multiple1.jpeg",
       "assets/images/Face_oil_multiple2.jpeg"
     ],
