@@ -478,9 +478,9 @@ const PRODUCTS = [
     "category": "beauty-care",
     "isPopular": false,
     "isNew": true,
-    "image": "assets/images/Facewash_main_new.jpeg",
+    "image": "assets/images/facewash_main_new.jpeg",
     "images": [
-      "assets/images/Facewash_main_new.jpeg",
+      "assets/images/facewash_main_new.jpeg",
       "assets/images/Facewash_multiple1.jpeg",
       "assets/images/Facewash_multiple2.jpeg",
       "assets/images/Facewash_multiple3.jpeg"
