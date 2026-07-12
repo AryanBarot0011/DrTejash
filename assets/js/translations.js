@@ -135,7 +135,7 @@ const TRANSLATIONS = {
     form_invalid_email: "Please enter a valid email address.",
     contact_info_title: "Contact Information",
     working_hours_title: "Clinic Timings",
-    working_hours_val: "Mon - Sat: 9:00 AM - 1:00 PM, 4:00 PM - 8:00 PM (Sunday Closed)",
+    working_hours_val: "Mon - Sat: 10:00 AM - 1:00 PM, 5:00 PM - 9:00 PM (Sunday Closed)",
 
     // Footer
     footer_about: "Providing premium healthcare products and consultations under Dr. Tejash. 100% natural, tested, and trusted.",
@@ -280,7 +280,7 @@ const TRANSLATIONS = {
     form_invalid_email: "कृपया एक वैध ईमेल पता दर्ज करें।",
     contact_info_title: "संपर्क जानकारी",
     working_hours_title: "क्लिनिक का समय",
-    working_hours_val: "सोम - शनि: सुबह 9:00 - दोपहर 1:00, शाम 4:00 - रात 8:00 (रविवार बंद)",
+    working_hours_val: "सोम - शनि: सुबह 10:00 - दोपहर 1:00, शाम 5:00 - रात 9:00 (रविवार बंद)",
 
     // Footer
     footer_about: "डॉ. तेजश के मार्गदर्शन में प्रीमियम स्वास्थ्य उत्पाद और परामर्श। 100% प्राकृतिक, परीक्षित और विश्वसनीय।",
@@ -425,7 +425,7 @@ const TRANSLATIONS = {
     form_invalid_email: "કૃપા કરીને સાચું ઈમેલ એડ્રેસ દાખલ કરો.",
     contact_info_title: "સંપર્ક માહિતી",
     working_hours_title: "ક્લિનિકનો સમય",
-    working_hours_val: "સોમ - શનિ: સવારે ૯:૦૦ - બપોરે ૧:૦૦, સાંજે ૪:૦૦ - રાત્રે ૮:૦૦ (રવિવાર બંધ)",
+    working_hours_val: "સોમ - શનિ: સવારે ૧૦:૦૦ - બપોરે ૧:૦૦, સાંજે ૫:૦૦ - રાત્રે ૯:૦૦ (રવિવાર બંધ)",
 
     // Footer
     footer_about: "ડો. તેજશના માર્ગદર્શન હેઠળ પ્રીમિયમ આરોગ્ય ઉત્પાદનો અને પરામર્શ. 100% કુદરતી, પરીક્ષિત અને વિશ્વસનીય.",

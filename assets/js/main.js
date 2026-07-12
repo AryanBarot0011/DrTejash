@@ -104,7 +104,7 @@ function initCommonLayouts() {
             <a href="https://api.whatsapp.com/send/?phone=${whatsapp}&type=phone_number&app_absent=0" target="_blank" class="d-flex align-items-center mb-1 mb-sm-0">
               <i class="bi bi-whatsapp me-2 text-success"></i> WhatsApp
             </a>
-            <a href="mailto:${email}" class="d-flex align-items-center">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=${email}" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center">
               <i class="bi bi-envelope-fill me-2 text-primary"></i> ${email}
             </a>
           </div>
@@ -197,7 +197,7 @@ function initCommonLayouts() {
                     <a href="https://api.whatsapp.com/send/?phone=${whatsapp}&type=phone_number&app_absent=0" target="_blank" class="text-success d-flex align-items-center gap-2">
                       <i class="bi bi-whatsapp"></i> <span>WhatsApp Chat</span>
                     </a>
-                    <a href="mailto:${email}" class="text-dark d-flex align-items-center gap-2">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=${email}" target="_blank" rel="noopener noreferrer" class="text-dark d-flex align-items-center gap-2">
                       <i class="bi bi-envelope-fill text-primary"></i> <span class="text-break">${email}</span>
                     </a>
                     <span class="text-muted d-flex align-items-start gap-2">
@@ -228,10 +228,10 @@ function initCommonLayouts() {
               </a>
               <p class="mb-4" data-i18n="footer_about">Providing premium healthcare products and consultations under ${docName}. 100% natural, tested, and trusted.</p>
               <div class="footer-social-icons">
-                <a href="#" class="footer-social-icon"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="footer-social-icon"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.facebook.com/share/19ECE7HoSB/" target="_blank" rel="noopener noreferrer" class="footer-social-icon"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/swayambhuayurvedam?igsh=MTJ1bHBkcW1meXVsaQ==" target="_blank" rel="noopener noreferrer" class="footer-social-icon"><i class="bi bi-instagram"></i></a>
                 <a href="https://api.whatsapp.com/send/?phone=${whatsapp}&type=phone_number&app_absent=0" target="_blank" class="footer-social-icon"><i class="bi bi-whatsapp"></i></a>
-                <a href="mailto:${email}" class="footer-social-icon"><i class="bi bi-envelope"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=${email}" target="_blank" rel="noopener noreferrer" class="footer-social-icon"><i class="bi bi-envelope"></i></a>
               </div>
             </div>
             
@@ -263,7 +263,7 @@ function initCommonLayouts() {
               <p class="mb-2"><i class="bi bi-geo-alt-fill text-primary me-2"></i> ${address}</p>
               <p class="mb-2"><i class="bi bi-telephone-fill text-primary me-2"></i> <a href="tel:${phone}" class="text-white-50">${phone}</a></p>
               <p class="mb-2"><i class="bi bi-whatsapp text-primary me-2"></i> <a href="https://api.whatsapp.com/send/?phone=${whatsapp}&type=phone_number&app_absent=0" target="_blank" class="text-white-50">${whatsapp}</a></p>
-              <p class="mb-2"><i class="bi bi-envelope-fill text-primary me-2"></i> <a href="mailto:${email}" class="text-white-50">${email}</a></p>
+              <p class="mb-2"><i class="bi bi-envelope-fill text-primary me-2"></i> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=${email}" target="_blank" rel="noopener noreferrer" class="text-white-50">${email}</a></p>
             </div>
           </div>
           
@@ -1115,7 +1115,22 @@ function initContactPage() {
         return;
       }
 
-      // Simulate form submission
+      // Construct WhatsApp message text
+      const whatsappText = `Hello Doctor,
+
+I have submitted an inquiry via the contact form on your website. Here are my details:
+*Name:* ${name}
+*Phone:* ${phone}
+*Email:* ${email || 'Not provided'}
+*Message:* ${message}`;
+
+      const encodedText = encodeURIComponent(whatsappText);
+      const whatsappUrl = `https://api.whatsapp.com/send/?phone=${CONFIG.whatsapp}&text=${encodedText}&type=phone_number&app_absent=0`;
+      
+      // Redirect / Open in new window
+      window.open(whatsappUrl, '_blank');
+
+      // Show success alert and reset form
       const alertSuccess = document.getElementById("contactFormAlert");
       if (alertSuccess) {
         alertSuccess.classList.remove("d-none");
