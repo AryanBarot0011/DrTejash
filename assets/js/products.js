@@ -883,7 +883,7 @@ const PRODUCTS = [
   },
   {
     "id": "kesuda-soap",
-    "price": 110,
+    "price": 100,
     "category": "bathing",
     "isPopular": false,
     "isNew": false,
