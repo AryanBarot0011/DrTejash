@@ -23,7 +23,7 @@ const TRANSLATIONS = {
     btn_read_more: "Read More",
 
     // Home Page
-    hero_upper_subtitle: "Dr. Tejas Ayurvedic Homemade cosmetic products",
+    hero_upper_subtitle: "Dr. TJ'S Ayurvedic Homemade cosmetic products",
     hero_title: "Ayurvedic Homemade Cosmetic Products",
     hero_subtitle: "Crafted by medical experts to ensure health, purity, and trust for your family.",
     about_preview_title: "Caring for skin and Hair...",
