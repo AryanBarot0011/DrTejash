@@ -27,7 +27,7 @@ const TRANSLATIONS = {
     hero_title: "Ayurvedic Homemade Cosmetic Products",
     hero_subtitle: "Crafted by medical experts to ensure health, purity, and trust for your family.",
     about_preview_title: "Caring for skin and Hair...",
-    about_preview_desc: "Under the expert guidance of Dr. Tejas Joshi, we formulate 100% natural, chemical-free Ayurvedic homemade cosmetic products for skin and hair care. We blend traditional Ayurvedic recipes with premium with ayurvedic herbs swarash, kwath and its extracts to bring you safe, clean, and effective daily care.",
+    about_preview_desc: "Under the expert guidance of Dr. Tejas Joshi, we formulate 100% natural, chemical-free Ayurvedic homemade cosmetic products for skin and hair care. We blend traditional Ayurvedic recipes with premium ayurvedic herbs swarash, kwath and its extracts to bring you safe, clean, and effective daily care.",
     why_choose_title: "Why Choose Our Products?",
     why_choose_subtitle: "Trusted authentic Ayurvedic herbal products made by Dr. Joshi",
     choose_natural_title: "100% Natural Ingredients",

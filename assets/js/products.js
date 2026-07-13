@@ -67,9 +67,9 @@ const PRODUCTS = [
     "category": "hair-care",
     "isPopular": true,
     "isNew": false,
-    "image": "assets/images/Hair_shampoo_main.jpeg",
+    "image": "assets/images/Hair_shampoo_main_new1.jpeg",
     "images": [
-      "assets/images/Hair_shampoo_main.jpeg",
+      "assets/images/Hair_shampoo_main_new1.jpeg",
       "assets/images/Hair_shampoo_multiple1.jpeg",
       "assets/images/Hair_shampoo_multiple2.jpeg"
     ],
